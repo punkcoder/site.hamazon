@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hamazon", "Hamazon\Hamazon.csproj", "{871D3459-0FF1-478D-98BC-F0A647AEEC6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hamazon.Tests", "Hamazon.Tests\Hamazon.Tests.csproj", "{88C29E99-C907-40DE-AB43-442FD9BF2432}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{871D3459-0FF1-478D-98BC-F0A647AEEC6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871D3459-0FF1-478D-98BC-F0A647AEEC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{871D3459-0FF1-478D-98BC-F0A647AEEC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{871D3459-0FF1-478D-98BC-F0A647AEEC6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88C29E99-C907-40DE-AB43-442FD9BF2432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C29E99-C907-40DE-AB43-442FD9BF2432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C29E99-C907-40DE-AB43-442FD9BF2432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C29E99-C907-40DE-AB43-442FD9BF2432}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
