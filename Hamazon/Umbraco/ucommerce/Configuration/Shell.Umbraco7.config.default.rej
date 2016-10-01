@@ -1,0 +1,34 @@
+--- Shell.Umbraco7.config.default
++++ Shell.Umbraco7.config.default
+@@ -181,7 +181,30 @@
+ 		<component id="MediaPicker"
+ 				   service="UCommerce.Tree.ITreeContentService, UCommerce"
+ 				   type="UCommerce.Umbraco7.Content.Umbraco7ImageTreeService, UCommerce.Umbraco7" />
+-		
++
++
++		<!-- Tree node converter -->
++		<component
++			id="TreeNodeConverter"
++			service="UCommerce.Umbraco7.Menu.TreeNodeConverter.ITreeNodeConverter, UCommerce.Umbraco7"
++			type="UCommerce.Umbraco7.Menu.TreeNodeConverter.Impl.TreeNodeConverter, UCommerce.Umbraco7">
++			<optionHandlers>
++				<array>
++					<Item>${CatalogSearchConverter}</Item>
++					<!--<Item>${DeleteOptionHandler}</Item>
++					<Item>${RefreshOptionHandler}</Item>
++					<Item>${SeperatorOptionHandler}</Item>
++					<Item>${CategorySortOptionHandler}</Item>
++					<Item>${ProductSortOptionHandler}</Item>
++					<Item>${CatalogSortOptionHandler}</Item>-->
++				</array>
++			</optionHandlers>
++		</component>
++
++		<component id="CatalogSearchConverter"
++				   service="UCommerce.Umbraco7.Menu.TreeNodeConverter.ITreeNodeConverter, UCommerce.Umbraco7"
++				   type="UCommerce.Umbraco7.Menu.TreeNodeConverter.Impl.CatalogSearchConverter, UCommerce.Umbraco7" />
++
+ 		<!-- Option Handlers -->
+ 		<component
+ 			id="OptionAggregator"

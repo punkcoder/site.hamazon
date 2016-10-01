@@ -1,0 +1,11 @@
+--- CreateCategoryOrProduct.ascx.cs
++++ CreateCategoryOrProduct.ascx.cs
+@@ -137,7 +137,7 @@
+ 						DisplayName = NameTextBox.Text,
+ 						CultureCode = language.CultureCode
+ 					});
+-
++				
+ 			    PipelineFactory.Create<Product>("SaveProduct").Execute(product);
+ 
+                 var category = Category.Get(GetParentCategoryId());
