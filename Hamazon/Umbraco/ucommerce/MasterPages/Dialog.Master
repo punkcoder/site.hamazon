@@ -8,6 +8,7 @@
     <asp:PlaceHolder runat="server" ID="CssPlaceHolder"></asp:PlaceHolder>
 	<asp:contentplaceholder id="head" runat="server">
 	</asp:contentplaceholder>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body style="height: auto;">
 	<script type="text/javascript">

@@ -10,6 +10,7 @@
         <asp:ContentPlaceHolder runat="server" id="Head"></asp:ContentPlaceHolder>
         <asp:PlaceHolder runat="server" ID="JavaScriptPlaceHolder"></asp:PlaceHolder>
         <asp:PlaceHolder runat="server" ID="CssPlaceHolder"></asp:PlaceHolder>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	</head>
 	<body>
 	<script type="text/javascript">

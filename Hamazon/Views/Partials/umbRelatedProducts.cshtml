@@ -1,0 +1,32 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using UCommerce.EntitiesV2
+@using UCommerce.Api
+
+@{
+    var FeaturedProducts = CurrentPage.GetPropertyValue("featuredProducts");
+    ProductCatalog catalog = CatalogLibrary.GetCatalog();
+
+    List<Product> products = new List<Product>();
+    var items = FeaturedProducts.Split(',');
+    foreach (var item in items)
+    {
+        var prod = CatalogLibrary.GetProduct(Convert.ToInt32(item));
+        if (prod != null)
+        {
+            products.Add(prod);
+        }
+    }
+
+
+}
+
+<h2 class="major"><span>Related Products</span></h2>
+@foreach (Product prod in products)
+{
+    <img src="@Umbraco.Media(prod.PrimaryImageMediaId).NiceUrl()" height="200" width="200"/>
+    <h3>@prod.Name</h3>
+    <div>$@prod.PriceGroupPrices.FirstOrDefault().Price</div>
+    <span><div class="btn btn-defualt btn-sm">Add to Cart</div></span>
+
+
+}

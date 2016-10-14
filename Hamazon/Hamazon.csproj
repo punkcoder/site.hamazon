@@ -121,7 +121,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Infralution.Licensing, Version=4.7.1.0, Culture=neutral, PublicKeyToken=3e7e8e3744a5c13f, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Umbraco7.7.2.0.16251\lib\net400\Infralution.Licensing.dll</HintPath>
+      <HintPath>..\packages\uCommerce.Umbraco7.7.2.1.16274\lib\net400\Infralution.Licensing.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="interfaces, Version=1.0.5750.18155, Culture=neutral, processorArchitecture=MSIL">
@@ -190,7 +190,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Web.XmlTransform, Version=1.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Umbraco7.7.2.0.16251\lib\net400\Microsoft.Web.XmlTransform.dll</HintPath>
+      <HintPath>..\packages\uCommerce.Umbraco7.7.2.1.16274\lib\net400\Microsoft.Web.XmlTransform.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.WindowsAzure.Configuration, Version=1.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -337,44 +337,44 @@
       <HintPath>..\packages\UmbracoCms.Core.7.3.0\lib\TidyNet.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="UCommerce, Version=7.2.0.16251, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.7.2.0.16251\lib\net400\UCommerce.dll</HintPath>
+    <Reference Include="UCommerce, Version=7.2.1.16274, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.7.2.1.16274\lib\net400\UCommerce.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="UCommerce.Admin, Version=7.2.0.16251, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.7.2.0.16251\lib\net400\UCommerce.Admin.dll</HintPath>
+    <Reference Include="UCommerce.Admin, Version=7.2.1.16274, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.7.2.1.16274\lib\net400\UCommerce.Admin.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="UCommerce.Infrastructure, Version=7.2.0.16251, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.7.2.0.16251\lib\net400\UCommerce.Infrastructure.dll</HintPath>
+    <Reference Include="UCommerce.Infrastructure, Version=7.2.1.16274, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.7.2.1.16274\lib\net400\UCommerce.Infrastructure.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="UCommerce.Installer, Version=7.2.0.16251, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.7.2.0.16251\lib\net400\UCommerce.Installer.dll</HintPath>
+    <Reference Include="UCommerce.Installer, Version=7.2.1.16274, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.7.2.1.16274\lib\net400\UCommerce.Installer.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="UCommerce.Pipelines, Version=7.2.0.16251, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.7.2.0.16251\lib\net400\UCommerce.Pipelines.dll</HintPath>
+    <Reference Include="UCommerce.Pipelines, Version=7.2.1.16274, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.7.2.1.16274\lib\net400\UCommerce.Pipelines.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="UCommerce.Presentation, Version=7.2.0.16251, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.7.2.0.16251\lib\net400\UCommerce.Presentation.dll</HintPath>
+    <Reference Include="UCommerce.Presentation, Version=7.2.1.16274, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.7.2.1.16274\lib\net400\UCommerce.Presentation.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="UCommerce.Transactions.Payments, Version=7.2.0.16251, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.7.2.0.16251\lib\net400\UCommerce.Transactions.Payments.dll</HintPath>
+    <Reference Include="UCommerce.Transactions.Payments, Version=7.2.1.16274, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.7.2.1.16274\lib\net400\UCommerce.Transactions.Payments.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="UCommerce.Umbraco7, Version=7.2.0.16251, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Umbraco7.7.2.0.16251\lib\net400\UCommerce.Umbraco7.dll</HintPath>
+    <Reference Include="UCommerce.Umbraco7, Version=7.2.1.16274, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Umbraco7.7.2.1.16274\lib\net400\UCommerce.Umbraco7.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="UCommerce.Umbraco7.Installer, Version=7.2.0.16251, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Umbraco7.7.2.0.16251\lib\net400\UCommerce.Umbraco7.Installer.dll</HintPath>
+    <Reference Include="UCommerce.Umbraco7.Installer, Version=7.2.1.16274, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Umbraco7.7.2.1.16274\lib\net400\UCommerce.Umbraco7.Installer.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="UCommerce.Web.Api, Version=7.2.0.16251, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.7.2.0.16251\lib\net400\UCommerce.Web.Api.dll</HintPath>
+    <Reference Include="UCommerce.Web.Api, Version=7.2.1.16274, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.7.2.1.16274\lib\net400\UCommerce.Web.Api.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="umbraco, Version=1.0.5750.18164, Culture=neutral, processorArchitecture=MSIL">
@@ -654,6 +654,19 @@
     <Content Include="Config\BaseRestExtensions.config" />
     <Content Include="Config\applications.config" />
     <Content Include="Config\404handlers.config" />
+    <Content Include="Views\Partials\umbAbout.cshtml" />
+    <Content Include="Views\Partials\umbFeatures.cshtml" />
+    <Content Include="Views\Partials\umbHomepageBanner.cshtml" />
+    <Content Include="Views\Partials\umbLatestNewsWidget.cshtml" />
+    <Content Include="Views\Partials\umbNewsOverviewWidget.cshtml" />
+    <Content Include="Views\Partials\umbRelatedProducts.cshtml" />
+    <Content Include="Views\Partials\umbSocial.cshtml" />
+    <Content Include="Views\Partials\umbTopNavigation.cshtml" />
+    <Content Include="Views\umbHomePage.cshtml" />
+    <Content Include="Views\umbLayout.cshtml" />
+    <Content Include="Views\umbNewsItem.cshtml" />
+    <Content Include="Views\umbNewsOverview.cshtml" />
+    <Content Include="Views\umbTextPage.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
