@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <language alias="nl" intName="Dutch" localName="Nederlands" lcid="19" culture="nl-NL">
   <creator>
     <name>The Umbraco community</name>
@@ -52,11 +52,11 @@
     <key alias="domainUpdated">Domein '%0%' is bijgewerkt</key>
     <key alias="orEdit">Bewerk huidige domeinen</key>
     <key alias="domainHelp"><![CDATA[Geldige domeinnamen zijn: "example.com", "www.example.com", "example.com:8080" of
-        "https://www.example.com/".<br /><br />Zgn. 'one-level' paden in domeinen worden ondersteund, bijv. "example.com/en". Echter, ze
+        "https://www.example.com/".<br/><br/>Zgn. 'one-level' paden in domeinen worden ondersteund, bijv. "example.com/en". Echter, ze
         zouden moeten worden vermeden. Gebruik bij voorkeur de cultuurinstelling hierboven.]]></key>
     <key alias="inherit">Overerven</key>
     <key alias="setLanguage">Cultuur</key>
-    <key alias="setLanguageHelp"><![CDATA[Zet de cultuur voor de nodes onder de huidige node,<br /> of erf de cultuur over van de ouder nodes. Zal ook van toepassing <br />
+    <key alias="setLanguageHelp"><![CDATA[Zet de cultuur voor de nodes onder de huidige node,<br/> of erf de cultuur over van de ouder nodes. Zal ook van toepassing <br/>
       zijn op de huidige node, tenzij een domein hieronder ook van toepassing is.]]></key>
     <key alias="setDomains">Domeinen</key>
   </area>
@@ -435,7 +435,7 @@
     <key alias="databaseNotFound"><![CDATA[<p>De database kon niet gevonden worden! Gelieve na te kijken of de informatie in de "connection string" van het "web.config" bestand correct is.</p><p> Om door te gaan, gelieve het "web.config" bestand aan te passen (met behulp van Visual Studio of je favoriete tekstverwerker), scroll in het bestand naar beneden, voeg de connection string voor je database toe in de key met naam "umbracoDbDSN" en sla het bestand op.</p><p>Klik op de knop <strong>opnieuw proberen</strong> als je hiermee klaar bent. <br/> <a href="http://our.umbraco.org/documentation/Using-Umbraco/Config-files/webconfig7" target="_blank">Meer informatie over het aanpassen van de web.config vind je hier.</a></p>]]></key>
     <key alias="databaseText"><![CDATA[Om deze stap te voltooien moet je enkele gegevens weten over je database server ("connection string").<br/> Gelieve contact op te nemen met je ISP indien nodig. Wanneer je installeert op een lokale computer of server, dan heb je waarschijnlijk informatie nodig van je systeembeheerder.]]></key>
     <key alias="databaseUpgrade"><![CDATA[<p> Klik de <strong>upgrade</strong> knop om je database te upgraden naar Umbraco %0%</p> <p> Maak je geen zorgen - er zal geen inhoud worden gewist en alles blijft gewoon werken! </p>]]></key>
-    <key alias="databaseUpgradeDone"><![CDATA[Je database is geupgrade naar de definitieve versie %0%.<br />Klik <strong>Volgende</strong> om verder te gaan.]]></key>
+    <key alias="databaseUpgradeDone"><![CDATA[Je database is geupgrade naar de definitieve versie %0%.<br/>Klik <strong>Volgende</strong> om verder te gaan.]]></key>
     <key alias="databaseUpToDate"><![CDATA[De huidige database is up-to-date!. Klik <strong>volgende</strong> om door te gaan]]></key>
     <key alias="defaultUserChangePass"><![CDATA[<strong>Het wachtwoord van de default gebruiker dient veranderd te worden!</strong>]]></key>
     <key alias="defaultUserDisabled"><![CDATA[<strong>De default gebruiker is geblokkeerd of heeft geen toegang tot Umbraco!</strong></p><p>Geen verdere actie noodzakelijk. Klik <b>Volgende</b> om verder te gaan.]]></key>
@@ -450,13 +450,13 @@
     <key alias="permissionsAffectedFolders">Betreffende bestanden en mappen</key>
     <key alias="permissionsAffectedFoldersMoreInfo">Meer informatie over het instellen van machtigingen voor Umbraco vind je hier</key>
     <key alias="permissionsAffectedFoldersText">Je dient ASP.NET 'modify' machtiging te geven voor de volgende bestanden/mappen</key>
-    <key alias="permissionsAlmostPerfect"><![CDATA[<strong>Je machtigingen zijn bijna perfect!</strong><br /><br /> Je kunt Umbraco zonder problemen starten, maar je kunt nog geen packages installeren om volledig van Umbraco te profiteren.]]></key>
+    <key alias="permissionsAlmostPerfect"><![CDATA[<strong>Je machtigingen zijn bijna perfect!</strong><br/><br/> Je kunt Umbraco zonder problemen starten, maar je kunt nog geen packages installeren om volledig van Umbraco te profiteren.]]></key>
     <key alias="permissionsHowtoResolve">Hoe op te lossen</key>
     <key alias="permissionsHowtoResolveLink">Klik hier om de tekst versie te lezen</key>
     <key alias="permissionsHowtoResolveText"><![CDATA[Bekijk onze <strong>video tutorial</strong> over het instellen van machtigingen voor Umbraco, of lees de tekst versie.]]></key>
-    <key alias="permissionsMaybeAnIssue"><![CDATA[<strong>Je machtigingen zijn misschien incorrect!</strong> <br/><br /> Je kunt Umbraco probleemloos starten, maar je kunt nog geen mappen aanmaken of packages installeren om zo volledig van Umbraco te profiteren.]]></key>
-    <key alias="permissionsNotReady"><![CDATA[<strong>Je machtigingen zijn nog niet gereed gemaakt voor Umbraco!</strong> <br /><br /> Om Umbraco te starten zul je je machtigingen moeten aanpassen.]]></key>
-    <key alias="permissionsPerfect"><![CDATA[<strong>Je machtigingen zijn perfect!</strong><br /><br /> Je bent nu klaar om Umbraco te starten en om packages te installeren!]]></key>
+    <key alias="permissionsMaybeAnIssue"><![CDATA[<strong>Je machtigingen zijn misschien incorrect!</strong> <br/><br/> Je kunt Umbraco probleemloos starten, maar je kunt nog geen mappen aanmaken of packages installeren om zo volledig van Umbraco te profiteren.]]></key>
+    <key alias="permissionsNotReady"><![CDATA[<strong>Je machtigingen zijn nog niet gereed gemaakt voor Umbraco!</strong> <br/><br/> Om Umbraco te starten zul je je machtigingen moeten aanpassen.]]></key>
+    <key alias="permissionsPerfect"><![CDATA[<strong>Je machtigingen zijn perfect!</strong><br/><br/> Je bent nu klaar om Umbraco te starten en om packages te installeren!]]></key>
     <key alias="permissionsResolveFolderIssues">Map probleem wordt opgelost</key>
     <key alias="permissionsResolveFolderIssuesLink">Volg deze link voor meer informatie over problemen met ASP.NET en het aanmaken van mappen</key>
     <key alias="permissionsSettingUpPermissions">Machtigingen worden aangepast</key>
@@ -465,12 +465,12 @@
     <key alias="runwayFromScratchText"><![CDATA[Je website is momenteel helemaal leeg. Dat is prima als je vanaf nul wilt beginnen en je eigen documenttypes en templates wilt maken (<a href="http://Umbraco.tv/documentation/videos/for-site-builders/foundation/document-types">leer hoe</a>). Je kunt er later alsnog voor kiezen om Runway te installeren. Ga dan naar de Ontwikkelaar sectie en kies Packages.]]></key>
     <key alias="runwayHeader">Je hebt zojuist een blanco Umbraco platform geinstalleerd. Wat wil je nu doen?</key>
     <key alias="runwayInstalled">Runway is geinstalleerd</key>
-    <key alias="runwayInstalledText"><![CDATA[Je hebt de basis geinstalleerd. Kies welke modules je er op wilt installeren.<br /> Dit is onze lijst van aanbevolen modules. Vink de modules die je wilt installeren, of bekijk de <a href="#" onclick="toggleModules(); return false;" id="toggleModuleList">volledige lijst modules</a>]]></key>
+    <key alias="runwayInstalledText"><![CDATA[Je hebt de basis geinstalleerd. Kies welke modules je er op wilt installeren.<br/> Dit is onze lijst van aanbevolen modules. Vink de modules die je wilt installeren, of bekijk de <a href="#" onclick="toggleModules(); return false;" id="toggleModuleList">volledige lijst modules</a>]]></key>
     <key alias="runwayOnlyProUsers">Alleen aanbevolen voor gevorderde gebruikers</key>
     <key alias="runwaySimpleSite">Ik wil met een eenvoudige website beginnen</key>
     <key alias="runwaySimpleSiteText"><![CDATA[<p> "Runway" is een eenvoudige website die je van enkele elementaire documenttypes en templates voorziet. De installer kan Runway automatisch voor je opzetten, maar je kunt het gemakkelijk aanpassen, uitbreiden of verwijderen. Het is niet vereist en je kunt Umbraco prima zonder Runway gebruiken.
 
-Echter, Runway biedt een gemakkelijke basis om je snel op weg te helpen. Als je er voor kiest om Runway te installeren, dan kun je optioneel de bouwstenen (genaamd Runway Modules) kiezen om je Runway pagina's te verbeteren.</p> <small> <em>Runway omvat:</em> Home pagina, Getting Started pagina, Module installatie pagina.<br /> <em>Optionele Modules:</em> Top Navigatie, Sitemap, Contact, Gallery. </small> 
+Echter, Runway biedt een gemakkelijke basis om je snel op weg te helpen. Als je er voor kiest om Runway te installeren, dan kun je optioneel de bouwstenen (genaamd Runway Modules) kiezen om je Runway pagina's te verbeteren.</p> <small> <em>Runway omvat:</em> Home pagina, Getting Started pagina, Module installatie pagina.<br/> <em>Optionele Modules:</em> Top Navigatie, Sitemap, Contact, Gallery. </small> 
     ]]></key>
     <key alias="runwayWhatIsRunway">Wat is Runway</key>
     <key alias="step1">Stap 1/5: Licentie aanvaarden</key>
@@ -483,13 +483,13 @@ Echter, Runway biedt een gemakkelijke basis om je snel op weg te helpen. Als je 
     <key alias="theEndFurtherHelp"><![CDATA[<h3>Meer hulp en informatie</h3> Vind hulp in onze bekroonde community, blader door de documentatie of bekijk enkele gratis videos over het bouwen van een eenvoudige site, het gebruiken van packages en een overzicht van Umbraco terminologie]]></key>
     <key alias="theEndHeader">Umbraco %0% is geïnstalleerd en klaar voor gebruik.</key>
     <key alias="theEndInstallFailed"><![CDATA[Om de installatie af te sluiten, moet u de handmatig het <strong>/web.config bestand</strong> aanpassen, en de Appsetting key <strong>UmbracoConfigurationStatus</strong> onder in het bestand veranderen naar <strong>'%0%'</strong>.]]></key>
-    <key alias="theEndInstallSuccess"><![CDATA[Je kunt <strong>meteen beginnen</strong> door de "Launch Umbraco" knop hieronder te klikken. <br />Als je een <strong>beginnende Umbraco gebruiker</strong> bent, dan kun je you can find veel informatie op onze "getting started" pagina's vinden.]]></key>
+    <key alias="theEndInstallSuccess"><![CDATA[Je kunt <strong>meteen beginnen</strong> door de "Launch Umbraco" knop hieronder te klikken. <br/>Als je een <strong>beginnende Umbraco gebruiker</strong> bent, dan kun je you can find veel informatie op onze "getting started" pagina's vinden.]]></key>
     <key alias="theEndOpenUmbraco"><![CDATA[<h3>Launch Umbraco</h3> Om je website te beheren open je simpelweg de Umbraco back office en begin je inhoud toe te voegen, templates en stylesheets aan te passen of nieuwe functionaliteit toe te voegen]]></key>
     <key alias="Unavailable">Verbinding met de database mislukt.</key>
     <key alias="Version3">Umbraco versie 3</key>
     <key alias="Version4">Umbraco versie 4</key>
     <key alias="watch">Bekijken</key>
-    <key alias="welcomeIntro"><![CDATA[Deze wizard helpt u met het configureren van <strong>Umbraco %0%</strong> voor een nieuwe installatie of een upgrade van versie 3.0. <br /><br /> Druk op <strong>"volgende"</strong> om de wizard te starten.]]></key>
+    <key alias="welcomeIntro"><![CDATA[Deze wizard helpt u met het configureren van <strong>Umbraco %0%</strong> voor een nieuwe installatie of een upgrade van versie 3.0. <br/><br/> Druk op <strong>"volgende"</strong> om de wizard te starten.]]></key>
   </area>
   <area alias="language">
     <key alias="cultureCode">Cultuurcode</key>
@@ -511,7 +511,7 @@ Echter, Runway biedt een gemakkelijke basis om je snel op weg te helpen. Als je 
     <key alias="instruction">log hieronder in</key>
     <key alias="timeout">Sessie is verlopen</key>
 
-    <key alias="bottomText"><![CDATA[<p style="text-align:right;">&copy; 2001 - %0% <br /><a href="http://umbraco.com" style="text-decoration: none" target="_blank">umbraco.com</a></p>]]></key>
+    <key alias="bottomText"><![CDATA[<p style="text-align:right;">&copy; 2001 - %0% <br/><a href="http://umbraco.com" style="text-decoration: none" target="_blank">umbraco.com</a></p>]]></key>
   </area>
   <area alias="main">
     <key alias="dashboard">Dashboard</key>
@@ -555,9 +555,9 @@ Echter, Runway biedt een gemakkelijke basis om je snel op weg te helpen. Als je 
 		  door gebruiker <strong>'%3%'</strong>
 	  </p>
 		  <div class="buttons">
-				<br />
+				<br/>
 				<a class="buttonEdit" href="http://%4%/#/content/content/edit/%5%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EDIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> &nbsp; 
-				<br />
+				<br/>
 		  </div>
 		  <p>
 			  <h3>Update samenvatting:</h3>
@@ -567,12 +567,12 @@ Echter, Runway biedt een gemakkelijke basis om je snel op weg te helpen. Als je 
 			 </p>
 
 		  <div class="buttons">
-				<br />
+				<br/>
 				<a class="buttonEdit" href="http://%4%/#/content/content/edit/%5%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EDIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> &nbsp; 
-				<br />
+				<br/>
 		  </div>
 
-		  <p>Een prettige dag!<br /><br />
+		  <p>Een prettige dag!<br/><br/>
 			  Dit is een bericht van uw Content Management Systeem.
 		  </p>
         ]]></key>
@@ -598,7 +598,7 @@ Echter, Runway biedt een gemakkelijke basis om je snel op weg te helpen. Als je 
     <key alias="packageUninstalledHeader">Package is verwijderd</key>
     <key alias="packageUninstalledText">De package is succesvol verwijderd</key>
     <key alias="packageUninstallHeader">Verwijder package</key>
-    <key alias="packageUninstallText"><![CDATA[Je kunt de items die je niet wilt verwijderen deselecteren. Als je 'Bevestig verwijderen' klikt worden alle geselecteerde items verwijderd.<br />
+    <key alias="packageUninstallText"><![CDATA[Je kunt de items die je niet wilt verwijderen deselecteren. Als je 'Bevestig verwijderen' klikt worden alle geselecteerde items verwijderd.<br/>
       <span style="color: Red; font-weight: bold;">Waarschuwing:</span> alle documenten, media etc, die afhankelijk zijn van de items die je verwijderd, zullen niet meer werken en kan leiden tot een instabiele installatie,
       wees dus voorzichtig met verwijderen. Als je niet zeker bent, neem dan contact op met de auteur van de package.
     ]]></key>
@@ -618,8 +618,8 @@ Echter, Runway biedt een gemakkelijke basis om je snel op weg te helpen. Als je 
   </area>
   <area alias="publicAccess">
     <key alias="paAdvanced">Geavanceerd: Beveilig door de Member Groups te seecteren die toegang hebben op de pagina</key>
-    <key alias="paAdvancedHelp"><![CDATA[Als je toegang tot pagina's wilt regelen met behulp van role-based authenticatie,<br /> gebruik makend van Umbraco's member groups.]]></key>
-    <key alias="paAdvancedNoGroups"><![CDATA[Je moet eerst een membergroup maken voordat je kunt werken met <br />role-based authentication.]]></key>
+    <key alias="paAdvancedHelp"><![CDATA[Als je toegang tot pagina's wilt regelen met behulp van role-based authenticatie,<br/> gebruik makend van Umbraco's member groups.]]></key>
+    <key alias="paAdvancedNoGroups"><![CDATA[Je moet eerst een membergroup maken voordat je kunt werken met <br/>role-based authentication.]]></key>
     <key alias="paErrorPage">Error Pagina</key>
     <key alias="paErrorPageHelp">Gebruikt om te tonen als een gebruiker is ingelogd, maar geen rechten heeft om de pagina te bekijken</key>
     <key alias="paHowWould">Hoe wil je de pagina beveiligen?</key>
@@ -653,7 +653,7 @@ Echter, Runway biedt een gemakkelijke basis om je snel op weg te helpen. Als je 
     <key alias="nodePublish">%0% is gepubliceerd</key>
     <key alias="nodePublishAll">%0% en onderliggende pagina’s zijn gepubliceerd</key>
     <key alias="publishAll">Publiceer %0% en alle kinderen</key>
-    <key alias="publishHelp"><![CDATA[Klik <em>ok</em> om <strong>%0%</strong> te publiceren en de wijzigingen zichtbaar te maken voor bezoekers.<br/><br />
+    <key alias="publishHelp"><![CDATA[Klik <em>ok</em> om <strong>%0%</strong> te publiceren en de wijzigingen zichtbaar te maken voor bezoekers.<br/><br/>
       Je kunt deze pagina publiceren en alle onderliggende sub-pagina's door <em>publiceer alle kinderen</em> aan te vinken hieronder.
       ]]></key>
   </area>
@@ -677,7 +677,7 @@ Echter, Runway biedt een gemakkelijke basis om je snel op weg te helpen. Als je 
   </area>
   <area alias="rollback">
     <key alias="currentVersion">Huidige versie</key>
-    <key alias="diffHelp"><![CDATA[Hier worden de verschillen getoond tussen de huidige en de geselecteerde versie<br /><del>Rode</del> tekst wordt niet getoond in de geselecteerde versie , <ins>groen betekent toegevoegd</ins>]]></key>
+    <key alias="diffHelp"><![CDATA[Hier worden de verschillen getoond tussen de huidige en de geselecteerde versie<br/><del>Rode</del> tekst wordt niet getoond in de geselecteerde versie , <ins>groen betekent toegevoegd</ins>]]></key>
     <key alias="documentRolledBack">Document is teruggezet</key>
     <key alias="htmlHelp">Hiermee wordt de geselecteerde versie als html getoond, als u de verschillen tussen de 2 versies tegelijk wilt zien, gebruik dan de diff view</key>
     <key alias="rollbackTo">Terugzetten naar</key>
@@ -735,7 +735,7 @@ Echter, Runway biedt een gemakkelijke basis om je snel op weg te helpen. Als je 
     <key alias="contentPublishedFailedByEvent">Publicatie werd geannuleerd door een 3rd party plug-in</key>
     <key alias="contentTypeDublicatePropertyType">Eigenschappen type bestaat al</key>
     <key alias="contentTypePropertyTypeCreated">Eigenschappen type aangemaakt</key>
-    <key alias="contentTypePropertyTypeCreatedText"><![CDATA[Naam: %0% <br /> Data type: %1%]]></key>
+    <key alias="contentTypePropertyTypeCreatedText"><![CDATA[Naam: %0% <br/> Data type: %1%]]></key>
     <key alias="contentTypePropertyTypeDeleted">Eigenschappen type verwijderd</key>
     <key alias="contentTypeSavedHeader">Inhoudstype opgeslagen</key>
     <key alias="contentTypeTabCreated">Tab aangemaakt</key>

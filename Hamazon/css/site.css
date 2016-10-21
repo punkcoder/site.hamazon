@@ -1,0 +1,37 @@
+﻿.logoLi {
+    float: left;
+}
+
+.logoImg {
+    padding:20px;
+   height: 200px;
+   width: 200px;  
+}
+
+.is-features img {
+    height: 180px;
+}
+
+.smallProductContainer {
+    border: 2px solid gray;
+    padding: 5px;
+    margin: 10px;
+}
+.smallProductImage {
+    margin:auto;    
+    width: 100%;
+    height: 100%;
+}
+.smallProductTitle{}
+.smallProductPrice {
+    float: right;
+}
+.smallProductButton {
+    float: none;
+}
+.btn-block {
+    padding: 1px;
+    width: 100%;
+    height: 35px;
+    text-align:center;
+}

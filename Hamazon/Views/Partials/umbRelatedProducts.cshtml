@@ -1,32 +1,40 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using System.Activities.Expressions
 @using UCommerce.EntitiesV2
 @using UCommerce.Api
 
 @{
-    var FeaturedProducts = CurrentPage.GetPropertyValue("featuredProducts");
-    ProductCatalog catalog = CatalogLibrary.GetCatalog();
+    var featuredProducts = CurrentPage.GetPropertyValue("featuredProducts");
+    var catalog = CatalogLibrary.GetCatalog();
 
-    List<Product> products = new List<Product>();
-    var items = FeaturedProducts.Split(',');
-    foreach (var item in items)
+    var products = new List<Product>();
+    if (!string.IsNullOrEmpty(featuredProducts))
     {
-        var prod = CatalogLibrary.GetProduct(Convert.ToInt32(item));
-        if (prod != null)
+        var items = featuredProducts.Split(',');
+        foreach (var item in items)
         {
-            products.Add(prod);
+            var prod = CatalogLibrary.GetProduct(Convert.ToInt32(item));
+            if (prod != null)
+            {
+                products.Add(prod);
+            }
         }
     }
-
-
 }
 
 <h2 class="major"><span>Related Products</span></h2>
-@foreach (Product prod in products)
-{
-    <img src="@Umbraco.Media(prod.PrimaryImageMediaId).NiceUrl()" height="200" width="200"/>
-    <h3>@prod.Name</h3>
-    <div>$@prod.PriceGroupPrices.FirstOrDefault().Price</div>
-    <span><div class="btn btn-defualt btn-sm">Add to Cart</div></span>
-
-
+@foreach (var prod in products)
+    {
+        var price = prod.PriceGroupPrices.FirstOrDefault().Price != null ? prod.PriceGroupPrices.FirstOrDefault().Price.Value.ToString("C") : "Unavailable";
+        
+        <div class="smallProductContainer">
+        <div class="smallProductImage">
+            <img alt="Product Image" src="@Umbraco.Media(prod.PrimaryImageMediaId).NiceUrl()" class="smallProductImage" />
+        </div>
+        <div>
+            <div class="smallProductPrice">@price</div>
+            <h3 class="smallProductTitle">@prod.Name</h3>
+        </div>
+        <div class="btn btn-defualt btn-lg btn-block" onclick="addSku('@prod.Sku')">Add to Cart</div>
+    </div>
 }

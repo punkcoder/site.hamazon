@@ -36,6 +36,12 @@
     <key alias="translate">Översätt</key>
     <key alias="unpublish">Avpublicera</key>
     <key alias="update">Uppdatera</key>
+    <key alias="Sort products" type="uCommerce">Sort products</key>
+    <key alias="Sort catalogs" type="uCommerce">Sort categories</key>
+    <key alias="Sort categories" type="uCommerce">Sort categories</key>
+    <key alias="Sort Campaigns" type="uCommerce">&gt;Prioritize campaigns</key>
+    <key alias="Sort Campaign Items" type="uCommerce">Prioritize campaign items</key>
+    <key alias="Sort Parent Definitions" type="uCommerce">Sort parent definitions</key>
   </area>
   <area alias="assignDomain">
     <key alias="addNew">Lägg till nytt domännamn</key>
@@ -55,7 +61,7 @@
     <key alias="remove">Ta bort</key>
     <key alias="setDomains">Domäner</key>
     <key alias="setLanguage">Kultur</key>
-    <key alias="setLanguageHelp"><![CDATA[Sätt kulturen för noder under aktuell nod,<br /> eller ärv kulturen från föregående noder. Appliceras även<br />
+    <key alias="setLanguageHelp"><![CDATA[Sätt kulturen för noder under aktuell nod,<br/> eller ärv kulturen från föregående noder. Appliceras även<br/>
      på befintlig nod.]]></key>
   </area>
   <area alias="auditTrails">
@@ -410,10 +416,10 @@
     <key alias="databaseHeader">Databaskonfiguration</key>
     <key alias="databaseInstall"><![CDATA[För att installera Umbraco %0% databasen, tryck på knappen <strong>installera</strong>]]></key>
     <key alias="databaseInstallDone"><![CDATA[Nu har Umbraco %0% kopierats till din databas. Tryck <strong>Nästa</strong> för att fortsätta.]]></key>
-    <key alias="databaseNotFound"><![CDATA[<p>Databasen kunde inte hittas! Kontrollera att informationen i databasanslutnings-inställningarna i filen "web.config" är rätt.</p> <p>För att fortsätta måste du redigera filen "web.config" (du kan använda Visual Studio eller din favorit text-redigerare), bläddra till slutet, lägg till databasanslutnings-inställningarna för din databas i fältet som heter "umbracoDbDSN" och spara filen. </p> <p> Klicka på <strong>Försök igen</strong> knappen när du är klar.<br />><a href="http://our.umbraco.org/documentation/Using-Umbraco/Config-files/webconfig7" target="_blank"> Mer information om att redigera web.config hittar du här.</a></p>]]></key>
-    <key alias="databaseText"><![CDATA[För att avsluta det här steget måste du veta lite information om din databasserver ("connection string").<br /> Eventuellt kan du behöva kontakta ditt webb-hotell. Om du installerar på en lokal maskin eller server kan du få informationen från din systemadministratör.]]></key>
+    <key alias="databaseNotFound"><![CDATA[<p>Databasen kunde inte hittas! Kontrollera att informationen i databasanslutnings-inställningarna i filen "web.config" är rätt.</p> <p>För att fortsätta måste du redigera filen "web.config" (du kan använda Visual Studio eller din favorit text-redigerare), bläddra till slutet, lägg till databasanslutnings-inställningarna för din databas i fältet som heter "umbracoDbDSN" och spara filen. </p> <p> Klicka på <strong>Försök igen</strong> knappen när du är klar.<br/>><a href="http://our.umbraco.org/documentation/Using-Umbraco/Config-files/webconfig7" target="_blank"> Mer information om att redigera web.config hittar du här.</a></p>]]></key>
+    <key alias="databaseText"><![CDATA[För att avsluta det här steget måste du veta lite information om din databasserver ("connection string").<br/> Eventuellt kan du behöva kontakta ditt webb-hotell. Om du installerar på en lokal maskin eller server kan du få informationen från din systemadministratör.]]></key>
     <key alias="databaseUpgrade"><![CDATA[<p> Tryck <strong>Uppgradera</strong> knappen för att uppgradera din databas till Umbraco %0%</p> <p> Du behöver inte vara orolig. Inget innehåll kommer att raderas och efteråt kommer allt att fungera som vanligt! </p>]]></key>
-    <key alias="databaseUpgradeDone"><![CDATA[Din databas har nu uppgraderats till den senaste versionen %0%.<br />Tryck <strong>Nästa</strong> för att fortsätta.]]></key>
+    <key alias="databaseUpgradeDone"><![CDATA[Din databas har nu uppgraderats till den senaste versionen %0%.<br/>Tryck <strong>Nästa</strong> för att fortsätta.]]></key>
     <key alias="databaseUpToDate"><![CDATA[Din nuvarande databas behöver inte uppgraderas! Klicka <strong>Nästa</strong> för att fortsätta med konfigurationsguiden]]></key>
     <key alias="defaultUserChangePass"><![CDATA[<strong>Lösenordet på standardanvändaren måste bytas!</strong>]]></key>
     <key alias="defaultUserDisabled"><![CDATA[<strong>Standardanvändaren har avaktiverats eller har inte åtkomst till Umbraco!</strong></p><p>Du behöver inte göra något ytterligare här. Klicka <b>Next</b> för att fortsätta.]]></key>
@@ -427,13 +433,13 @@
     <key alias="permissionsAffectedFoldersMoreInfo">Här hittar du mer information om att sätta rättigheter för Umbraco</key>
     <key alias="permissionsAffectedFoldersText">Du måste ge ASP.NET ändra rättigheter till följande filer/mappar</key>
     <key alias="permissionsAlmostPerfect"><![CDATA[<strong>Dina rättighetsinställningar är nästa perfekta!</strong>
-    <br /><br /> Du kan köra Umbraco utan problem, men du kommer inte att kunna installera paket vilket är rekommenderat för att kunna utnyttja Umbraco fullt ut.]]></key>
+    <br/><br/> Du kan köra Umbraco utan problem, men du kommer inte att kunna installera paket vilket är rekommenderat för att kunna utnyttja Umbraco fullt ut.]]></key>
     <key alias="permissionsHowtoResolve">Hur skall man lösa</key>
     <key alias="permissionsHowtoResolveLink">Klicka här för att läsa text-versionen</key>
     <key alias="permissionsHowtoResolveText"><![CDATA[Titta på vår <strong>video-självstudiekurs</strong> om hur du konfigurerar mapp-rättigheter för Umbraco eller läs text-versionen.]]></key>
-    <key alias="permissionsMaybeAnIssue"><![CDATA[<strong>Dina rättighetsinställningar kan vara ett problem!</strong><br /><br /> Du kan köra Umbraco utan problem, men du kommer inte att kunna skapa mappar eller installera paket vilket är rekommenderat för att kunna utnyttja Umbraco fullt ut.]]></key>
-    <key alias="permissionsNotReady"><![CDATA[<strong>Dina rättighetsinställningar är inte reda för Umbraco!</strong> <br /><br /> För att kunna köra Umbraco måste du ändra dina rättighetsinställningar.]]></key>
-    <key alias="permissionsPerfect"><![CDATA[<strong>Dina rättighetsinställningar är perfekta!</strong><br /><br />Du är redo att köra Umbraco och installera paket!]]></key>
+    <key alias="permissionsMaybeAnIssue"><![CDATA[<strong>Dina rättighetsinställningar kan vara ett problem!</strong><br/><br/> Du kan köra Umbraco utan problem, men du kommer inte att kunna skapa mappar eller installera paket vilket är rekommenderat för att kunna utnyttja Umbraco fullt ut.]]></key>
+    <key alias="permissionsNotReady"><![CDATA[<strong>Dina rättighetsinställningar är inte reda för Umbraco!</strong> <br/><br/> För att kunna köra Umbraco måste du ändra dina rättighetsinställningar.]]></key>
+    <key alias="permissionsPerfect"><![CDATA[<strong>Dina rättighetsinställningar är perfekta!</strong><br/><br/>Du är redo att köra Umbraco och installera paket!]]></key>
     <key alias="permissionsResolveFolderIssues">Lösa mapp problem</key>
     <key alias="permissionsResolveFolderIssuesLink">Följ den här länken för mer information om problem med ASP.NET och att skapa mappar</key>
     <key alias="permissionsSettingUpPermissions">Konfigurerar mapprättigheter</key>
@@ -442,10 +448,10 @@
     <key alias="runwayFromScratchText"><![CDATA[Just nu är din webbplats för fullständigt tom och det är ju perfekt om du vill börja från början med att skapa dina egna dokumentyper och mallar. (<a href="http://Umbraco.tv/documentation/videos/for-site-builders/foundation/document-types">lär dig hur</a>) Du kan fortfarande välja att installera Runway senare. Gå in i Utvecklarsektionen och välj Paket.]]></key>
     <key alias="runwayHeader">Du har just installerat en ren Umbraco platform. Vad vill du göra härnäst?</key>
     <key alias="runwayInstalled">Runway är installerat</key>
-    <key alias="runwayInstalledText"><![CDATA[Du har nu grunden på plats. Välj vilka moduler du vill installera ovanpå den.<br /> Det här är vår lista över rekommenderade moduler, markera de moduler du vill installera, eller visa den <a href="#" onclick="toggleModules(); return false;" id="toggleModuleList">fullständiga listan</a>]]></key>
+    <key alias="runwayInstalledText"><![CDATA[Du har nu grunden på plats. Välj vilka moduler du vill installera ovanpå den.<br/> Det här är vår lista över rekommenderade moduler, markera de moduler du vill installera, eller visa den <a href="#" onclick="toggleModules(); return false;" id="toggleModuleList">fullständiga listan</a>]]></key>
     <key alias="runwayOnlyProUsers">Endast rekommenderad för erfarna användare</key>
     <key alias="runwaySimpleSite">Jag vill börja med en enkel webbplats</key>
-    <key alias="runwaySimpleSiteText"><![CDATA[<p> "Runway" är en enkel webbplats med några enkla dokumentyper och mallar. Installationsguiden kan automatiskt installera Runway åt dig, men du kan lätt ändra, utöka eller ta bort den. Det är inte nödvändigt och du kan använda Umbraco utan den, men Runway erbjuder en enkel grund baserad på bästa praxis för att hjälpa dig igång snabbare än någonsin tidigare. Om du väljer att installera Runway, kan du välja till grundläggande byggstenar så kallade Runway-moduler för att utöka dina Runway-sidor. </p> <small><em>Inkluderat i Runway:</em> Startsida, "komma igång"-sida och en sidan om att installera moduler.<br /> <em>Tilläggs moduler:</em> Toppnavigation, Sitemap, Kontakt och galleri. </small>]]></key>
+    <key alias="runwaySimpleSiteText"><![CDATA[<p> "Runway" är en enkel webbplats med några enkla dokumentyper och mallar. Installationsguiden kan automatiskt installera Runway åt dig, men du kan lätt ändra, utöka eller ta bort den. Det är inte nödvändigt och du kan använda Umbraco utan den, men Runway erbjuder en enkel grund baserad på bästa praxis för att hjälpa dig igång snabbare än någonsin tidigare. Om du väljer att installera Runway, kan du välja till grundläggande byggstenar så kallade Runway-moduler för att utöka dina Runway-sidor. </p> <small><em>Inkluderat i Runway:</em> Startsida, "komma igång"-sida och en sidan om att installera moduler.<br/> <em>Tilläggs moduler:</em> Toppnavigation, Sitemap, Kontakt och galleri. </small>]]></key>
     <key alias="runwayWhatIsRunway">Vad är Runway</key>
     <key alias="step1">Steg 1/5 Acceptera licensavtalet</key>
     <key alias="step2">Steg 2/5: Databaskonfiguration</key>
@@ -457,11 +463,11 @@
     <key alias="theEndFurtherHelp"><![CDATA[<h3>Ytterligare hjälp och information</h3> Få hjälp från våra prisbelönta community, bläddra i dokumentationen eller titta på några gratis videor om hur man bygger en enkel webbplats, hur du använder paket eller en snabbguide till Umbracos terminologi]]></key>
     <key alias="theEndHeader">Umbraco %0% är installerat och klart för användning</key>
     <key alias="theEndInstallFailed"><![CDATA[För att avsluta installationen måste du manuellt redigera <strong>/web.config</strong> filen och ändra AppSettingsnyckeln <strong>UmbracoConfigurationStatus</strong> på slutet till <strong>%0%</strong>]]></key>
-    <key alias="theEndInstallSuccess"><![CDATA[Du kan <strong>börja omedelbart</strong> genom att klicka på "Starta Umbraco"-knappen nedan. <br />Om du är en <strong>ny Umbraco användare</strong>kan du hitta massor av resurser på våra kom igång sidor.]]></key>
+    <key alias="theEndInstallSuccess"><![CDATA[Du kan <strong>börja omedelbart</strong> genom att klicka på "Starta Umbraco"-knappen nedan. <br/>Om du är en <strong>ny Umbraco användare</strong>kan du hitta massor av resurser på våra kom igång sidor.]]></key>
     <key alias="theEndOpenUmbraco"><![CDATA[<h3>Starta Umbraco</h3> För att administrera din webbplats öppnar du bara Umbraco back office och börjar lägga till innehåll, uppdatera mallar och stilmallar eller lägga till nya funktioner.]]></key>
     <key alias="Unavailable">Anslutningen till databasen misslyckades.</key>
     <key alias="watch">Se</key>
-    <key alias="welcomeIntro"><![CDATA[Den här guiden kommer att guida dig genom processen med att konfigurera <strong>Umbraco %0%</strong> antingen för en ny installation eller en uppgradering från version 3.0. <br /><br /> Tryck på <strong>"next"</strong> för att börja.]]></key>
+    <key alias="welcomeIntro"><![CDATA[Den här guiden kommer att guida dig genom processen med att konfigurera <strong>Umbraco %0%</strong> antingen för en ny installation eller en uppgradering från version 3.0. <br/><br/> Tryck på <strong>"next"</strong> för att börja.]]></key>
     <key alias="Version3">Umbraco Version 3</key>
     <key alias="Version4">Umbraco Version 4</key>
   </area>
@@ -474,7 +480,7 @@
     <key alias="renewSession">Förnya nu för att spara ditt arbete</key>
   </area>
   <area alias="login">
-    <key alias="bottomText"><![CDATA[<p style="text-align:right;">&copy; 2001 - %0% <br /><a href="http://umbraco.com" style="text-decoration: none" target="_blank">umbraco.com</a></p> ]]></key>
+    <key alias="bottomText"><![CDATA[<p style="text-align:right;">&copy; 2001 - %0% <br/><a href="http://umbraco.com" style="text-decoration: none" target="_blank">umbraco.com</a></p> ]]></key>
     <key alias="greeting0">Happy super Sunday</key>
     <key alias="greeting1">Happy manic Monday</key>
     <key alias="greeting2">Happy tremendous Tuesday</key>
@@ -511,12 +517,12 @@
   <area alias="notifications">
     <key alias="editNotifications">Inställningar för notifieringar gällande %0%</key>
     <key alias="mailBody">Hej %0% Detta mail skickas till dig automatiskt för att meddela att '%1%' har utförts på sidan '%2%' av användaren '%3%' Gå till http://%4%/actions/editContent.aspx?id=%5% för att redigera.</key>
-    <key alias="mailBodyHtml"><![CDATA[<p>Hej %0%</p> <p>Detta mail skickas till dig automatiskt för att meddela att <strong>'%1%'</strong> har utförts på sidan <a href="http://%4%/actions/preview.aspx?id=%5%"><strong>'%2%'</strong></a> av användaren <strong>'%3%'</strong> </p> <div style="margin: 8px 0; padding: 8px; display: block;"> <br /> <a style="color: white; font-weight: bold; background-color: #5372c3; text-decoration : none; margin-right: 20px; border: 8px solid #5372c3; width: 150px;" href="http://%4%/actions/editContent.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EDIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> &nbsp; <br /> </div> <p> <h3>Sammanfattning av uppdateringen:</h3> <table style="width: 100%;"> %6% </table> </p> <div style="margin: 8px 0; padding: 8px; display: block;"> <br /> <a style="color: white; font-weight: bold; background-color: #66cc66; text-decoration : none; margin-right: 20px; border: 8px solid #66cc66; width: 150px;" href="http://%4%/actions/publish.aspx?id=%5%">&nbsp;&nbsp;PUBLICERA&nbsp;&nbsp;</a> &nbsp; <a style="color: white; font-weight: bold; background-color: #5372c3; text-decoration : none; margin-right: 20px; border: 8px solid #5372c3; width: 150px;" href="http://%4%/actions/editContent.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REDIGERA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> &nbsp; <a style="color: white; font-weight: bold; background-color: #ca4a4a; text-decoration : none; margin-right: 20px; border: 8px solid #ca4a4a; width: 150px;" href="http://%4%/actions/delete.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;TA BORT&nbsp;&nbsp;&nbsp;&nbsp;</a> <br /> </div>]]></key>
+    <key alias="mailBodyHtml"><![CDATA[<p>Hej %0%</p> <p>Detta mail skickas till dig automatiskt för att meddela att <strong>'%1%'</strong> har utförts på sidan <a href="http://%4%/actions/preview.aspx?id=%5%"><strong>'%2%'</strong></a> av användaren <strong>'%3%'</strong> </p> <div style="margin: 8px 0; padding: 8px; display: block;"> <br/> <a style="color: white; font-weight: bold; background-color: #5372c3; text-decoration : none; margin-right: 20px; border: 8px solid #5372c3; width: 150px;" href="http://%4%/actions/editContent.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EDIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> &nbsp; <br/> </div> <p> <h3>Sammanfattning av uppdateringen:</h3> <table style="width: 100%;"> %6% </table> </p> <div style="margin: 8px 0; padding: 8px; display: block;"> <br/> <a style="color: white; font-weight: bold; background-color: #66cc66; text-decoration : none; margin-right: 20px; border: 8px solid #66cc66; width: 150px;" href="http://%4%/actions/publish.aspx?id=%5%">&nbsp;&nbsp;PUBLICERA&nbsp;&nbsp;</a> &nbsp; <a style="color: white; font-weight: bold; background-color: #5372c3; text-decoration : none; margin-right: 20px; border: 8px solid #5372c3; width: 150px;" href="http://%4%/actions/editContent.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REDIGERA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> &nbsp; <a style="color: white; font-weight: bold; background-color: #ca4a4a; text-decoration : none; margin-right: 20px; border: 8px solid #ca4a4a; width: 150px;" href="http://%4%/actions/delete.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;TA BORT&nbsp;&nbsp;&nbsp;&nbsp;</a> <br/> </div>]]></key>
     <key alias="mailSubject">[%0%] Meddelande för att informera om att %1% har utförts på %2%</key>
     <key alias="notifications">Notifieringar</key>
   </area>
   <area alias="packager">
-    <key alias="chooseLocalPackageText"><![CDATA[Välj ett installationspaket, genom att klicka på utforska<br />och leta upp paketet. Umbracos installationspaket har oftast filändelsen ".umb" eller ".zip".]]></key>
+    <key alias="chooseLocalPackageText"><![CDATA[Välj ett installationspaket, genom att klicka på utforska<br/>och leta upp paketet. Umbracos installationspaket har oftast filändelsen ".umb" eller ".zip".]]></key>
     <key alias="packageAuthor">Utvecklare</key>
     <key alias="packageDemonstration">Demonstration</key>
     <key alias="packageDocumentation">Dokumentation</key>
@@ -558,8 +564,8 @@
   </area>
   <area alias="publicAccess">
     <key alias="paAdvanced">Rollbaserat lösenordsskydd</key>
-    <key alias="paAdvancedHelp"><![CDATA[Välj detta alternativ om du vill skydda sidan med hjälp av rollbaserat lösenordsskydd.<br /> Då används Umbracos medlemsgrupper.]]></key>
-    <key alias="paAdvancedNoGroups"><![CDATA[Du måste skapa en medlemsgrupp innan du kan använda <br />rollbaserat lösenordsskydd.]]></key>
+    <key alias="paAdvancedHelp"><![CDATA[Välj detta alternativ om du vill skydda sidan med hjälp av rollbaserat lösenordsskydd.<br/> Då används Umbracos medlemsgrupper.]]></key>
+    <key alias="paAdvancedNoGroups"><![CDATA[Du måste skapa en medlemsgrupp innan du kan använda <br/>rollbaserat lösenordsskydd.]]></key>
     <key alias="paErrorPage">Sida med felmeddelande</key>
     <key alias="paErrorPageHelp">Används när en användare är inloggad, men saknar rättigheter att se sidan</key>
     <key alias="paHowWould">Välj hur du vill lösenordsskydda sidan</key>
@@ -585,7 +591,7 @@
     <key alias="nodePublish">%0% har publicerats</key>
     <key alias="nodePublishAll">%0% och underliggande sidor har publicerats</key>
     <key alias="publishAll">Publicera %0% och alla dess underordnade sidor</key>
-    <key alias="publishHelp"><![CDATA[Klicka på <em>ok</em> för att publicera <strong>%0%</strong>. Därmed blir innehållet publikt.<br/><br /> Du kan publicera denna sida och alla dess undersidor genom att kryssa i <em>publicera alla undersidor</em>. ]]></key>
+    <key alias="publishHelp"><![CDATA[Klicka på <em>ok</em> för att publicera <strong>%0%</strong>. Därmed blir innehållet publikt.<br/><br/> Du kan publicera denna sida och alla dess undersidor genom att kryssa i <em>publicera alla undersidor</em>. ]]></key>
   </area>
   <area alias="relatedlinks">
     <key alias="enterExternal">ange en extern länk</key>
@@ -601,7 +607,7 @@
   </area>
   <area alias="rollback">
     <key alias="currentVersion">Nuvarande version</key>
-    <key alias="diffHelp"><![CDATA[Här visas skillnaderna mellan nuvarande version och vald version<br /><del>Röd</del> text kommer inte att synas i den valda versionen. , <ins>Grön betyder att den har tillkommit</ins>]]></key>
+    <key alias="diffHelp"><![CDATA[Här visas skillnaderna mellan nuvarande version och vald version<br/><del>Röd</del> text kommer inte att synas i den valda versionen. , <ins>Grön betyder att den har tillkommit</ins>]]></key>
     <key alias="documentRolledBack">Dokumentet har återgått till en tidigare version</key>
     <key alias="htmlHelp">Här visas den valda sidversionen i HTML. Om du vill se skillnaden mellan två versioner samtidigt, välj istället "Diff".</key>
     <key alias="rollbackTo">Återgå till</key>
@@ -627,6 +633,7 @@
     <key alias="statistics">Statistik</key>
     <key alias="translation">Översättning</key>
     <key alias="users">Användare</key>
+    <key alias="uCommerce">uCommerce</key>
   </area>
   <area alias="settings">
     <key alias="asAContentMasterType">som huvudinnehållstyp. Tabbar från huvudinnehållstyper visas inte och kan endast redigeras på själva huvudinnehållstypen.</key>
@@ -657,7 +664,7 @@
     <key alias="contentPublishedFailedByEvent">Publiceringen avbröts av ett tredjepartstillägg</key>
     <key alias="contentTypeDublicatePropertyType">Egenskapstyp finns redan</key>
     <key alias="contentTypePropertyTypeCreated">Egenskapstyp skapad</key>
-    <key alias="contentTypePropertyTypeCreatedText"><![CDATA[Namn: %0% <br /> Datatyp: %1%]]></key>
+    <key alias="contentTypePropertyTypeCreatedText"><![CDATA[Namn: %0% <br/> Datatyp: %1%]]></key>
     <key alias="contentTypePropertyTypeDeleted">Egenskapstypen har tagits bort</key>
     <key alias="contentTypeSavedHeader">Innehållstypen har sparats</key>
     <key alias="contentTypeTabCreated">Ny flik skapad</key>

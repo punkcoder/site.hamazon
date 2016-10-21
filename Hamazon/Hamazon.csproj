@@ -465,8 +465,32 @@
     <Content Include="Config\Lang\ru-RU.user.xml" />
     <Content Include="Config\Lang\sv-SE.user.xml" />
     <Content Include="Config\Lang\zh-CN.user.xml" />
+    <Content Include="css\ie7.css" />
+    <Content Include="css\ie8.css" />
+    <Content Include="css\ie9.css" />
+    <Content Include="css\images\highlight.png" />
+    <Content Include="css\images\icons-contact.png" />
+    <Content Include="css\images\icons-meta.png" />
+    <Content Include="css\images\icons-special.png" />
+    <Content Include="css\images\overlay.png" />
+    <Content Include="css\site.css" />
+    <Content Include="css\skel-noscript.css" />
+    <Content Include="css\style-1000px.css" />
+    <Content Include="css\style-desktop.css" />
+    <Content Include="css\style-mobile.css" />
+    <Content Include="css\style.css" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="js\config.js" />
+    <Content Include="js\html5shiv.js" />
+    <Content Include="js\site.js" />
+    <Content Include="js\skel-panels.min.js" />
+    <Content Include="js\skel.min.js" />
+    <None Include="js\jquery.intellisense.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery2.min.js" />
+    <Content Include="js\jquery.slim.js" />
+    <Content Include="js\jquery.slim.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -621,6 +645,7 @@
       <DependentUpon>Tabs.sv.resx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ApiCartController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -667,6 +692,8 @@
     <Content Include="Views\umbNewsItem.cshtml" />
     <Content Include="Views\umbNewsOverview.cshtml" />
     <Content Include="Views\umbTextPage.cshtml" />
+    <Content Include="js\jquery.slim.min.map" />
+    <Content Include="js\jquery.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -676,8 +703,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_GlobalResources\Tabs.sv.resx">
