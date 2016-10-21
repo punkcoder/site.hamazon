@@ -18,5 +18,19 @@ namespace Hamazon.Controllers
         {
             TransactionLibrary.AddToBasket(1, Sku);
         }
+
+        [HttpGet]
+        public int GetCartCount()
+        {
+            var basket = TransactionLibrary.GetBasket();
+            int count = 0;
+
+            foreach (var purchaseOrderOrderLine in basket.PurchaseOrder.OrderLines)
+            {
+                count += purchaseOrderOrderLine.Quantity;
+            }
+
+            return count;
+        }
     }
 }
