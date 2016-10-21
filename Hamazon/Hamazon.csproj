@@ -488,7 +488,7 @@
     <Content Include="js\skel.min.js" />
     <None Include="js\jquery.intellisense.js" />
     <Content Include="js\jquery.js" />
-    <Content Include="js\jquery2.min.js" />
+    <Content Include="js\jquery.min.js" />
     <Content Include="js\jquery.slim.js" />
     <Content Include="js\jquery.slim.min.js" />
     <Content Include="Web.config" />
