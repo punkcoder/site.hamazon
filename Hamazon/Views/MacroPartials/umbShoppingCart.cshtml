@@ -1,44 +1,46 @@
 ﻿@using UCommerce.Api
 @inherits Umbraco.Web.Macros.PartialViewMacroPage
 @{
-    var basket = TransactionLibrary.GetBasket(true);
-    decimal subtotal = 0.0M;
 }
-<table class="table table-striped">
-    <thead>
-    <tr>
-        <td>Qty.</td>
-        <td>Item</td>
-        <td>Price</td>
-        <td>Line Total</td>
-        <td>Remove</td>
-    </tr>
-    </thead>
-    
-    <tbody>
-    
-        @foreach (var line in basket.PurchaseOrder.OrderLines)
-        {
-            subtotal += line.Quantity * line.Price;
-            <tr>
-                <td>@line.Quantity</td>
-                <td>@line.ProductName</td>
-                <td>@line.Price.ToString("C")</td>
-                <td>@((line.Quantity * line.Price).ToString("C"))</td>
-                <td>
-                    <a href="#" class="btn btn-default" onclick="removeCartItem('@line.OrderLineId')">Remove</a>
-                </td>
-            </tr>
-        }
+<script>
+    jQuery("#shoppingcart").ready(function () {
+        getBasket();
+    });
+</script>
 
-    </tbody>
+<table class="table table-striped" id="shoppingcart">
+    <thead>
+        <tr>
+            <td>Qty.</td>
+            <td>Item</td>
+            <td>Price</td>
+            <td>Line Total</td>
+            <td>Remove</td>
+        </tr>
+    </thead>
+
+    <tbody id="lineitems"></tbody>
     <tfoot>
-    <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td><b>Subtotal:</b></td>
-        <td>@subtotal.ToString("C")</td>
-        <td><a href="#" class="btn btn-default" onclick="ClearCart()">Clear Cart</a></td>
-    </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td><b>Subtotal:</b></td>
+            <td><span id="subtotal"></span></td>
+            <td><a href="#" class="btn btn-default" onclick="ClearCart()">Clear Cart</a></td>
+        </tr>
     </tfoot>
 </table>
+
+<script id="cart-line" type="text/x-handlebars-template">
+    {{#each basket}}
+    <tr>
+        <td>{{qty}}</td>
+        <td>{{name}}</td>
+        <td>${{price}}</td>
+        <td>${{linetotal}}</td>
+        <td>
+            <a href="#" class="btn btn-default" onclick="removeCartItem('{{lineid}}')">Remove</a>
+        </td>
+    </tr>
+    {{/each}}
+</script>

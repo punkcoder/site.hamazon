@@ -499,13 +499,21 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="App_Readme\Handlebarsjs_README.md" />
+    <Content Include="App_Readme\Handlebarsjs_LICENSE" />
     <None Include="js\jquery.intellisense.js" />
     <Content Include="js\jquery.js" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\jquery.slim.js" />
     <Content Include="js\jquery.slim.min.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\handlebars.amd.js" />
+    <Content Include="js\handlebars.amd.min.js" />
+    <Content Include="js\handlebars.js" />
+    <Content Include="js\handlebars.min.js" />
+    <Content Include="js\handlebars.runtime.js" />
+    <Content Include="js\handlebars.runtime.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -1,27 +1,39 @@
 ﻿/// <reference path="jquery.intellisense.js" />
 /// <reference path="jquery.js" />
+/// <reference path="handlebars.js" />
 
 jQuery(document).ready(function () {
     // Load the cart
-    loadTheCart();
+    getBasketCount();
 });
 
 function addSku(sku) {
     jQuery.post('/Umbraco/Api/Cart/AddToCart?sku=' + sku, null, function success() {
-        loadTheCart();
+        getBasketCount();
     });
 }
-function loadTheCart() {
-    jQuery.get('/Umbraco/Api/Cart/GetCartCount', null, function success(data) {
+function getBasketCount() {
+    jQuery.get('/Umbraco/Api/Cart/GetBasketCount', null, function success(data) {
         jQuery("#cartcount").text('(' + data + ')');
+    });
+}
+function getBasket() {
+    jQuery.get('/Umbraco/Api/Cart/GetBasket', null, function success(data) {
+        var source = $("#cart-line").html();
+        var template = Handlebars.compile(source);
+        var context = data;
+        var html = template(context);
+        $("#lineitems").html(html);
+        $("#subtotal").html("$" + data.subtotal);
     });
 }
 function removeCartItem(cartLineItem) {
     jQuery.post('/Umbraco/Api/Cart/RemoveCartItem?CartLineItem=' + cartLineItem, null, function success(data) {
-
+        getBasket();
     });
 }
 function ClearCart() {
     jQuery.post('/Umbraco/Api/Cart/ClearCart', null, function success(data) {
+        getBasket();
     });
 }
