@@ -22,11 +22,17 @@
         {
             @* If the Id of the item is the same as the Id of the current page then we want to add the class "current_page_item" *@
             @* Otherwise, we set the class to null, that way it will not even be added to the <li> element *@
-            <li class="@(CurrentPage.Id == item.Id ? "current_page_item" : null)"><a href="@item.Url">@item.Name</a></li>
+            <li class="@(CurrentPage.Id == item.Id ? "current_page_item" : null)">
+                <a href="@item.Url">
+                    @item.Name
+                    @if (item.Name == "Cart")
+                    {
+                        <span id="cartcount"> 0 </span>
+                    }
+                </a>
+            </li>
         }
-        <li>
-            <a href="#">Cart (<span id="cartcount">0</span>)</a>
-        </li>
+
     </ul>
 </nav>
 <!-- /Nav -->

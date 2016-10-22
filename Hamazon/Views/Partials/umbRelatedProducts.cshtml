@@ -22,7 +22,10 @@
     }
 }
 
-<h2 class="major"><span>Related Products</span></h2>
+@if (!string.IsNullOrWhiteSpace(featuredProducts))
+{
+    <h2 class="major"><span>Related Products</span></h2>
+}
 @foreach (var prod in products)
     {
         var price = prod.PriceGroupPrices.FirstOrDefault().Price != null ? prod.PriceGroupPrices.FirstOrDefault().Price.Value.ToString("C") : "Unavailable";

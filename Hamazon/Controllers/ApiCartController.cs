@@ -10,7 +10,7 @@ using Umbraco.Web.WebApi;
 
 namespace Hamazon.Controllers
 {
-    public class CartController: UmbracoApiController
+    public class CartController : UmbracoApiController
     {
 
         [HttpPost]
@@ -22,15 +22,36 @@ namespace Hamazon.Controllers
         [HttpGet]
         public int GetCartCount()
         {
-            var basket = TransactionLibrary.GetBasket();
             int count = 0;
 
-            foreach (var purchaseOrderOrderLine in basket.PurchaseOrder.OrderLines)
+            try
             {
-                count += purchaseOrderOrderLine.Quantity;
-            }
+                var basket = TransactionLibrary.GetBasket();
 
+                foreach (var purchaseOrderOrderLine in basket.PurchaseOrder.OrderLines)
+                {
+                    count += purchaseOrderOrderLine.Quantity;
+                }
+            }
+            catch (Exception ex)
+            {
+                
+            }
             return count;
+        }
+
+        [HttpPost]
+        public bool RemoveCartItem(int CartLineItem)
+        {
+            TransactionLibrary.UpdateLineItem(CartLineItem, 0);
+            return true;
+        }
+
+        [HttpPost]
+        public bool ClearCart()
+        {
+            TransactionLibrary.ClearBasket();
+            return true;
         }
     }
 }
