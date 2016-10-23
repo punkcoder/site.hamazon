@@ -35,14 +35,14 @@ namespace Hamazon.Controllers
 
                         var payload = new Dictionary<string, object>()
                         {
+                            { "UserId", members.First().Id},
                             { "email", request.email },
                             { "password", request.password }
                         };
                         var secretKey = "GQDstcKsx0NHjPOuXOYg5MbeJ1XT0uFiwDVvVBrk";
                         string token = JWT.JsonWebToken.Encode(payload, secretKey, JWT.JwtHashAlgorithm.HS256);
 
-                        resp.Headers.AddCookies(new CookieHeaderValue[] {new CookieHeaderValue("jwt", token)} );
-                        resp.Content = new StringContent("true");
+                        resp.Content = new StringContent(token);
                     }
                     else
                     {
@@ -59,6 +59,12 @@ namespace Hamazon.Controllers
                 resp.Content = new StringContent("false:AllHellBrokeLoose"); 
             }
             return resp;
+        }
+
+        [System.Web.Mvc.HttpPost]
+        public HttpResponse LogoutUser()
+        {
+            return null;
         }
     }
 }

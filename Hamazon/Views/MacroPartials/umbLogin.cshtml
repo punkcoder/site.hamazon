@@ -1,14 +1,33 @@
 ﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
-<div>
-    <div class="form-group">
-        <label for="txtEmailAddress">Email Address:</label>
-        <input type="text" class="form-control" id="txtEmailAddress" placeholder="" />
+@{
+    var showLogin = true;
+    var jwtcookie = Request.Cookies["jwt"];
+    var secretKey = "GQDstcKsx0NHjPOuXOYg5MbeJ1XT0uFiwDVvVBrk";
+    if (jwtcookie != null)
+    {
+        var values = JWT.JsonWebToken.Decode(jwtcookie.Value.ToString(), secretKey, false);
+        showLogin = false;
+    }
+}
+
+@if (showLogin)
+{
+    <div>
+        <div class="form-group">
+            <label for="txtEmailAddress">Email Address:</label>
+            <input type="text" class="form-control" id="txtEmailAddress" placeholder="" />
+        </div>
+        <div class="form-group">
+            <label for="txtPassword">Password:</label>
+            <input type="password" class="form-control" id="txtPassword" placeholder="" />
+        </div>
+        <div class="form-group">
+            <a href="#" class="btn btn-success" onclick="Login()">Login</a>
+        </div>
     </div>
-    <div class="form-group">
-        <label for="txtPassword">Password:</label>
-        <input type="password" class="form-control" id="txtPassword" placeholder="" />
-    </div>
-    <div class="form-group">
-        <a href="#" class="btn btn-success" onclick="Login()">Login</a>
-    </div>
-</div>
+}
+else
+{
+    <h2>You are currently logged in!</h2>
+    <a href="#" class="btn btn-default">Log Out... I've Had Enough Pork!</a>
+}

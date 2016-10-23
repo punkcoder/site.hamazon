@@ -47,6 +47,9 @@ function Login() {
     }
 
     jQuery.post('/Umbraco/Api/User/LoginUser', request, function success(data) {
-        
+        if (data.substring(0,5) != "false") {
+            document.cookie = "jwt=" + data + ";" + document.cookie;
+            console.log("set cookie");
+        }
     });
 }
