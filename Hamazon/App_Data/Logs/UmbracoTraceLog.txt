@@ -357,3 +357,1029 @@ Parameter name: No basket exists for the current user.
    at Castle.Proxies.Invocations.TransactionLibraryInternal_GetBasket.InvokeMethodOnTarget()
    at Castle.DynamicProxy.AbstractInvocation.Proceed()
    at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-22 18:52:15,495 [P10104/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on DESKTOP-UFC91S6
+ 2016-10-22 18:52:15,605 [P10104/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-10-22 18:52:15,605 [P10104/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2016-10-22 18:52:15,712 [P10104/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-10-22 18:52:15,966 [P10104/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 254ms)
+ 2016-10-22 18:52:16,127 [P10104/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-10-22 18:52:16,128 [P10104/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-10-22 18:52:16,128 [P10104/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-10-22 18:52:16,129 [P10104/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
+ 2016-10-22 18:52:16,139 [P10104/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-10-22 18:52:16,140 [P10104/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-10-22 18:52:16,140 [P10104/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-10-22 18:52:16,225 [P10104/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 84ms)
+ 2016-10-22 18:52:16,446 [P10104/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-10-22 18:52:16,446 [P10104/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-10-22 18:52:16,446 [P10104/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-10-22 18:52:16,446 [P10104/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-10-22 18:52:17,285 [P10104/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 18:52:17,738 [P10104/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 18:52:17,738 [P10104/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 18:52:17,769 [P10104/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-10-22 18:52:17,972 [P10104/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-10-22 18:52:18,035 [P10104/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-10-22 18:52:18,051 [P10104/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2608ms)
+ 2016-10-22 18:52:26,091 [P10104/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50874/umbraco (UmbracoModule request)
+ 2016-10-22 18:52:29,153 [P10104/D2/T7] INFO  umbraco.content - Load Xml from file...
+ 2016-10-22 18:52:29,153 [P10104/D2/T7] INFO  umbraco.content - Loaded Xml from file.
+ 2016-10-22 18:52:29,263 [P10104/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-10-22 18:52:29,263 [P10104/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2016-10-22 18:52:29,974 [P10104/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-22 18:52:29,974 [P10104/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2016-10-22 18:52:53,545 [P10104/D2/T7] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username james.mckee.jr@gmail.com from IP address ::1
+ 2016-10-22 18:52:53,638 [P10104/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-10-22 18:52:53,650 [P10104/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 11ms)
+ 2016-10-22 18:52:53,720 [P10104/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-10-22 18:52:53,739 [P10104/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 19ms)
+ 2016-10-22 18:52:53,742 [P10104/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-10-22 18:52:53,762 [P10104/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 20ms)
+ 2016-10-22 18:52:53,762 [P10104/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-10-22 18:52:53,762 [P10104/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-10-22 18:52:53,765 [P10104/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-10-22 18:52:53,786 [P10104/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 21ms)
+ 2016-10-22 18:53:04,922 [P10104/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-10-22 18:53:04,922 [P10104/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-10-22 18:53:31,539 [P10104/D2/T12] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-21 18:53:31
+ 2016-10-22 18:53:42,574 [P10104/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-10-22 18:53:42,617 [P10104/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 42ms)
+ 2016-10-22 18:53:51,129 [P10104/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login / Sign Up' with Id '2079' has been published.
+ 2016-10-22 18:53:55,220 [P10104/D2/T14] INFO  umbraco.content - Save Xml to file...
+ 2016-10-22 18:53:55,231 [P10104/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-22 18:54:17,052 [P10104/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login / Sign Up' with Id '2079' has been published.
+ 2016-10-22 18:54:21,124 [P10104/D2/T13] INFO  umbraco.content - Save Xml to file...
+ 2016-10-22 18:54:21,150 [P10104/D2/T30] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-22 18:54:27,399 [P10104/D2/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login / Sign Up' with Id '2079' has been published.
+ 2016-10-22 18:54:31,420 [P10104/D2/T12] INFO  umbraco.content - Save Xml to file...
+ 2016-10-22 18:54:31,440 [P10104/D2/T33] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-22 18:55:18,334 [P10104/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-22 18:55:18,334 [P10104/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-10-22 18:55:36,264 [P10104/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login / Sign Up' with Id '2079' has been published.
+ 2016-10-22 18:55:40,317 [P10104/D2/T45] INFO  umbraco.content - Save Xml to file...
+ 2016-10-22 18:55:40,342 [P10104/D2/T12] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-22 18:55:42,052 [P10104/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login / Sign Up' with Id '2079' has been published.
+ 2016-10-22 18:55:46,070 [P10104/D2/T45] INFO  umbraco.content - Save Xml to file...
+ 2016-10-22 18:55:46,094 [P10104/D2/T12] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-22 18:55:48,005 [P10104/D2/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login / Sign Up' with Id '2079' has been published.
+ 2016-10-22 18:55:52,030 [P10104/D2/T45] INFO  umbraco.content - Save Xml to file...
+ 2016-10-22 18:55:52,051 [P10104/D2/T12] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-22 19:00:06,021 [P7272/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on DESKTOP-UFC91S6
+ 2016-10-22 19:00:06,044 [P7272/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-10-22 19:00:06,053 [P7272/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2016-10-22 19:00:06,141 [P7272/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-10-22 19:00:06,383 [P7272/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 241ms)
+ 2016-10-22 19:00:06,393 [P7272/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-10-22 19:00:06,401 [P7272/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+ 2016-10-22 19:00:06,402 [P7272/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-10-22 19:00:06,414 [P7272/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 12ms)
+ 2016-10-22 19:00:06,424 [P7272/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-10-22 19:00:06,433 [P7272/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 8ms)
+ 2016-10-22 19:00:06,433 [P7272/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-10-22 19:00:06,442 [P7272/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 9ms)
+ 2016-10-22 19:00:06,472 [P7272/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-10-22 19:00:06,483 [P7272/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 11ms)
+ 2016-10-22 19:00:06,484 [P7272/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-10-22 19:00:06,492 [P7272/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 8ms)
+ 2016-10-22 19:00:06,941 [P7272/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 19:00:07,157 [P7272/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 19:00:07,161 [P7272/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 19:00:07,186 [P7272/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-10-22 19:00:07,210 [P7272/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-10-22 19:00:07,272 [P7272/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-10-22 19:00:07,279 [P7272/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1304ms)
+ 2016-10-22 19:00:08,673 [P7272/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50874/umbraco (UmbracoModule request)
+ 2016-10-22 19:00:10,745 [P7272/D2/T6] INFO  umbraco.content - Load Xml from file...
+ 2016-10-22 19:00:10,751 [P7272/D2/T6] INFO  umbraco.content - Loaded Xml from file.
+ 2016-10-22 19:00:11,013 [P7272/D2/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:00:22,936 [P7272/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-10-22 19:00:22,948 [P7272/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 12ms)
+ 2016-10-22 19:00:23,413 [P7272/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-22 19:00:23,495 [P7272/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 81ms)
+ 2016-10-22 19:00:42,280 [P7272/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-10-22 19:00:42,291 [P7272/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 10ms)
+ 2016-10-22 19:00:43,341 [P7272/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:01:13,761 [P7272/D2/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:01:31,433 [P7272/D2/T11] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-21 19:01:31
+ 2016-10-22 19:02:11,123 [P7272/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:17:21,627 [P4116/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on DESKTOP-UFC91S6
+ 2016-10-22 19:17:21,651 [P4116/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-10-22 19:17:21,661 [P4116/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 9ms)
+ 2016-10-22 19:17:21,756 [P4116/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-10-22 19:17:21,994 [P4116/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 238ms)
+ 2016-10-22 19:17:22,006 [P4116/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-10-22 19:17:22,015 [P4116/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+ 2016-10-22 19:17:22,015 [P4116/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-10-22 19:17:22,030 [P4116/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 14ms)
+ 2016-10-22 19:17:22,041 [P4116/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-10-22 19:17:22,049 [P4116/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+ 2016-10-22 19:17:22,050 [P4116/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-10-22 19:17:22,060 [P4116/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 10ms)
+ 2016-10-22 19:17:22,088 [P4116/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-10-22 19:17:22,100 [P4116/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 11ms)
+ 2016-10-22 19:17:22,100 [P4116/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-10-22 19:17:22,110 [P4116/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 8ms)
+ 2016-10-22 19:17:22,574 [P4116/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 19:17:22,747 [P4116/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 19:17:22,748 [P4116/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 19:17:22,758 [P4116/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-10-22 19:17:22,768 [P4116/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-10-22 19:17:22,846 [P4116/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-10-22 19:17:22,862 [P4116/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1283ms)
+ 2016-10-22 19:17:24,287 [P4116/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50874/umbraco (UmbracoModule request)
+ 2016-10-22 19:17:26,264 [P4116/D2/T6] INFO  umbraco.content - Load Xml from file...
+ 2016-10-22 19:17:26,266 [P4116/D2/T6] INFO  umbraco.content - Loaded Xml from file.
+ 2016-10-22 19:17:26,485 [P4116/D2/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:17:27,869 [P4116/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-10-22 19:17:27,878 [P4116/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 9ms)
+ 2016-10-22 19:17:28,310 [P4116/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-22 19:17:28,379 [P4116/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 69ms)
+ 2016-10-22 19:18:36,417 [P4116/D2/T11] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-21 19:18:36
+ 2016-10-22 19:19:08,758 [P4116/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-10-22 19:19:08,769 [P4116/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 10ms)
+ 2016-10-22 19:19:09,892 [P4116/D2/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:19:11,815 [P4116/D2/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:19:18,438 [P4116/D2/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:19:18,641 [P4116/D2/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:19:18,726 [P4116/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:19:30,226 [P4116/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:19:30,383 [P4116/D2/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:19:30,458 [P4116/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:20:03,136 [P4116/D2/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:20:03,954 [P4116/D2/T19] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:20:04,040 [P4116/D2/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:20:04,122 [P4116/D2/T19] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:20:04,173 [P4116/D2/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:20:07,963 [P4116/D2/T8] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:20:09,747 [P4116/D2/T8] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:20:38,505 [P4116/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:20:39,663 [P4116/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:20:39,819 [P4116/D2/T19] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:20:41,556 [P4116/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:22:20,322 [P10284/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on DESKTOP-UFC91S6
+ 2016-10-22 19:22:20,344 [P10284/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-10-22 19:22:20,357 [P10284/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 11ms)
+ 2016-10-22 19:22:20,448 [P10284/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-10-22 19:22:20,717 [P10284/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 269ms)
+ 2016-10-22 19:22:20,728 [P10284/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-10-22 19:22:20,736 [P10284/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+ 2016-10-22 19:22:20,736 [P10284/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-10-22 19:22:20,751 [P10284/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 14ms)
+ 2016-10-22 19:22:20,761 [P10284/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-10-22 19:22:20,769 [P10284/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 8ms)
+ 2016-10-22 19:22:20,770 [P10284/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-10-22 19:22:20,781 [P10284/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 10ms)
+ 2016-10-22 19:22:20,808 [P10284/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-10-22 19:22:20,819 [P10284/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 10ms)
+ 2016-10-22 19:22:20,820 [P10284/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-10-22 19:22:20,831 [P10284/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 10ms)
+ 2016-10-22 19:22:21,333 [P10284/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 19:22:21,501 [P10284/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 19:22:21,503 [P10284/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 19:22:21,516 [P10284/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-10-22 19:22:21,527 [P10284/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-10-22 19:22:21,566 [P10284/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-10-22 19:22:21,573 [P10284/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1296ms)
+ 2016-10-22 19:22:22,986 [P10284/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50874/umbraco (UmbracoModule request)
+ 2016-10-22 19:22:25,123 [P10284/D2/T6] INFO  umbraco.content - Load Xml from file...
+ 2016-10-22 19:22:25,128 [P10284/D2/T6] INFO  umbraco.content - Loaded Xml from file.
+ 2016-10-22 19:22:25,260 [P10284/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-10-22 19:22:25,271 [P10284/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 10ms)
+ 2016-10-22 19:22:25,863 [P10284/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-22 19:22:25,904 [P10284/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 40ms)
+ 2016-10-22 19:22:42,291 [P10284/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-10-22 19:22:42,327 [P10284/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 36ms)
+ 2016-10-22 19:22:43,363 [P10284/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:22:43,472 [P10284/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:22:44,138 [P10284/D2/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:22:49,599 [P10284/D2/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:22:49,722 [P10284/D2/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:22:49,766 [P10284/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:22:50,050 [P10284/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:22:50,540 [P10284/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:25:43,630 [P2452/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on DESKTOP-UFC91S6
+ 2016-10-22 19:25:43,673 [P2452/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-10-22 19:25:43,685 [P2452/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 11ms)
+ 2016-10-22 19:25:43,774 [P2452/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-10-22 19:25:44,025 [P2452/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 251ms)
+ 2016-10-22 19:25:44,037 [P2452/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-10-22 19:25:44,049 [P2452/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 11ms)
+ 2016-10-22 19:25:44,049 [P2452/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-10-22 19:25:44,062 [P2452/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 12ms)
+ 2016-10-22 19:25:44,072 [P2452/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-10-22 19:25:44,081 [P2452/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 9ms)
+ 2016-10-22 19:25:44,081 [P2452/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-10-22 19:25:44,093 [P2452/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 11ms)
+ 2016-10-22 19:25:44,123 [P2452/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-10-22 19:25:44,132 [P2452/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 9ms)
+ 2016-10-22 19:25:44,133 [P2452/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-10-22 19:25:44,145 [P2452/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 11ms)
+ 2016-10-22 19:25:44,585 [P2452/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 19:25:44,714 [P2452/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 19:25:44,715 [P2452/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 19:25:44,725 [P2452/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-10-22 19:25:44,735 [P2452/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-10-22 19:25:44,776 [P2452/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-10-22 19:25:44,784 [P2452/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1200ms)
+ 2016-10-22 19:25:46,170 [P2452/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50874/umbraco (UmbracoModule request)
+ 2016-10-22 19:25:47,922 [P2452/D2/T6] INFO  umbraco.content - Load Xml from file...
+ 2016-10-22 19:25:47,924 [P2452/D2/T6] INFO  umbraco.content - Loaded Xml from file.
+ 2016-10-22 19:25:48,011 [P2452/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-10-22 19:25:48,021 [P2452/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 9ms)
+ 2016-10-22 19:25:48,616 [P2452/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-22 19:25:48,663 [P2452/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 47ms)
+ 2016-10-22 19:26:06,156 [P2452/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-10-22 19:26:06,173 [P2452/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 17ms)
+ 2016-10-22 19:26:07,534 [P2452/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:26:07,776 [P2452/D2/T9] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:26:08,267 [P2452/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:26:08,338 [P2452/D2/T9] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:26:08,634 [P2452/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:26:10,254 [P2452/D2/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:26:10,511 [P2452/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:26:11,055 [P2452/D2/T9] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:27:00,620 [P10136/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on DESKTOP-UFC91S6
+ 2016-10-22 19:27:00,668 [P10136/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-10-22 19:27:00,683 [P10136/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 14ms)
+ 2016-10-22 19:27:00,792 [P10136/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-10-22 19:27:01,038 [P10136/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 245ms)
+ 2016-10-22 19:27:01,050 [P10136/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-10-22 19:27:01,059 [P10136/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 9ms)
+ 2016-10-22 19:27:01,059 [P10136/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-10-22 19:27:01,071 [P10136/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 11ms)
+ 2016-10-22 19:27:01,086 [P10136/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-10-22 19:27:01,096 [P10136/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 10ms)
+ 2016-10-22 19:27:01,096 [P10136/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-10-22 19:27:01,108 [P10136/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 11ms)
+ 2016-10-22 19:27:01,136 [P10136/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-10-22 19:27:01,145 [P10136/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 8ms)
+ 2016-10-22 19:27:01,145 [P10136/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-10-22 19:27:01,154 [P10136/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 8ms)
+ 2016-10-22 19:27:01,622 [P10136/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 19:27:01,800 [P10136/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 19:27:01,802 [P10136/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 19:27:01,811 [P10136/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-10-22 19:27:01,821 [P10136/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-10-22 19:27:01,908 [P10136/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-10-22 19:27:01,925 [P10136/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1356ms)
+ 2016-10-22 19:27:03,374 [P10136/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50874/umbraco (UmbracoModule request)
+ 2016-10-22 19:27:05,567 [P10136/D2/T6] INFO  umbraco.content - Load Xml from file...
+ 2016-10-22 19:27:05,571 [P10136/D2/T6] INFO  umbraco.content - Loaded Xml from file.
+ 2016-10-22 19:27:05,691 [P10136/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-10-22 19:27:05,701 [P10136/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 10ms)
+ 2016-10-22 19:27:06,361 [P10136/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-22 19:27:06,480 [P10136/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 119ms)
+ 2016-10-22 19:27:48,092 [P10136/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-10-22 19:27:48,103 [P10136/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 10ms)
+ 2016-10-22 19:27:49,162 [P10136/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:27:49,202 [P10136/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:27:50,588 [P10136/D2/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:27:51,670 [P10136/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:27:51,780 [P10136/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:27:52,255 [P10136/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:28:14,814 [P10136/D2/T11] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-21 19:28:14
+ 2016-10-22 19:28:47,138 [P10136/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:28:53,832 [P10136/D2/T8] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username james.mckee.jr@gmail.com from IP address ::1
+ 2016-10-22 19:28:53,979 [P10136/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-10-22 19:28:53,990 [P10136/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 11ms)
+ 2016-10-22 19:28:54,118 [P10136/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-10-22 19:28:54,136 [P10136/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 18ms)
+ 2016-10-22 19:28:54,148 [P10136/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-10-22 19:28:54,149 [P10136/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-10-22 19:28:54,151 [P10136/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-10-22 19:28:54,167 [P10136/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 16ms)
+ 2016-10-22 19:28:54,167 [P10136/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-10-22 19:28:54,248 [P10136/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 80ms)
+ 2016-10-22 19:29:42,793 [P10136/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-10-22 19:29:42,855 [P10136/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 62ms)
+ 2016-10-22 19:29:42,891 [P10136/D2/T9] WARN  Umbraco.Core.Models.Member - An attempt was made to set a value on the property 'PasswordQuestion' on type Umbraco.Core.Models.Member but the property type umbracoMemberPasswordRetrievalQuestion does not exist on the member type, ensure that this property type exists so that setting this property works correctly.
+ 2016-10-22 19:29:42,892 [P10136/D2/T9] WARN  Umbraco.Core.Models.Member - An attempt was made to set a value on the property 'PasswordAnswer' on type Umbraco.Core.Models.Member but the property type umbracoMemberPasswordRetrievalAnswer does not exist on the member type, ensure that this property type exists so that setting this property works correctly.
+ 2016-10-22 19:29:42,948 [P10136/D2/T9] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-10-22 19:29:58,195 [P10136/D2/T9] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:29:58,218 [P10136/D2/T20] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:29:58,390 [P10136/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:30:08,660 [P10136/D2/T9] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:30:15,695 [P10136/D2/T20] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username testuser@gmail.com from IP address ::1
+ 2016-10-22 19:32:42,865 [P752/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on DESKTOP-UFC91S6
+ 2016-10-22 19:32:42,920 [P752/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-10-22 19:32:42,930 [P752/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 8ms)
+ 2016-10-22 19:32:43,019 [P752/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-10-22 19:32:43,170 [P752/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 150ms)
+ 2016-10-22 19:32:43,263 [P752/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-10-22 19:32:43,263 [P752/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-10-22 19:32:43,264 [P752/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-10-22 19:32:43,264 [P752/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
+ 2016-10-22 19:32:43,274 [P752/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-10-22 19:32:43,275 [P752/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-10-22 19:32:43,275 [P752/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-10-22 19:32:43,320 [P752/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 44ms)
+ 2016-10-22 19:32:43,417 [P752/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-10-22 19:32:43,418 [P752/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-10-22 19:32:43,418 [P752/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-10-22 19:32:43,418 [P752/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-10-22 19:32:44,088 [P752/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 19:32:44,336 [P752/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 19:32:44,337 [P752/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-22 19:32:44,349 [P752/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-10-22 19:32:44,428 [P752/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-10-22 19:32:44,488 [P752/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-10-22 19:32:44,501 [P752/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1692ms)
+ 2016-10-22 19:32:48,820 [P752/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50874/umbraco (UmbracoModule request)
+ 2016-10-22 19:32:50,764 [P752/D2/T7] INFO  umbraco.content - Load Xml from file...
+ 2016-10-22 19:32:50,766 [P752/D2/T7] INFO  umbraco.content - Loaded Xml from file.
+ 2016-10-22 19:32:50,875 [P752/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-10-22 19:32:50,876 [P752/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2016-10-22 19:32:51,291 [P752/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-22 19:32:51,292 [P752/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2016-10-22 19:32:52,603 [P752/D2/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-10-22 19:32:52,604 [P752/D2/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-10-22 19:32:52,740 [P752/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-10-22 19:32:52,741 [P752/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-10-22 19:32:52,750 [P752/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-10-22 19:32:52,750 [P752/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-10-22 19:32:52,752 [P752/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-10-22 19:32:52,752 [P752/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-10-22 19:32:52,781 [P752/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-10-22 19:32:52,782 [P752/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2016-10-22 19:32:53,117 [P752/D2/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:32:54,617 [P752/D2/T7] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-22 19:33:13,754 [P752/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-10-22 19:33:13,755 [P752/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 0ms)
+ 2016-10-22 19:33:21,870 [P752/D2/T8] ERROR NHibernate.AdoNet.AbstractBatcher - Could not execute query: INSERT INTO uCommerce_OrderProperty ([key], Value, OrderId, OrderLineId) VALUES (@p0, @p1, @p2, @p3); select SCOPE_IDENTITY()
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.uCommerce_OrderProperty' with unique index 'IX_uCommerce_OrderProperty'. The duplicate key value is (_validCodesForDiscounts, 176, <NULL>).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+ClientConnectionId:0be2945d-f858-49dd-a945-bcdd8f35f73f
+Error Number:2601,State:1,Class:14
+ 2016-10-22 19:33:21,875 [P752/D2/T8] WARN  NHibernate.Util.ADOExceptionReporter - System.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.uCommerce_OrderProperty' with unique index 'IX_uCommerce_OrderProperty'. The duplicate key value is (_validCodesForDiscounts, 176, <NULL>).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Id.IdentityGenerator.InsertSelectDelegate.ExecuteAndExtract(IDbCommand insert, ISessionImplementor session)
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+ClientConnectionId:0be2945d-f858-49dd-a945-bcdd8f35f73f
+Error Number:2601,State:1,Class:14
+ 2016-10-22 19:33:21,875 [P752/D2/T8] ERROR NHibernate.Util.ADOExceptionReporter - Cannot insert duplicate key row in object 'dbo.uCommerce_OrderProperty' with unique index 'IX_uCommerce_OrderProperty'. The duplicate key value is (_validCodesForDiscounts, 176, <NULL>).
+The statement has been terminated.
+ 2016-10-22 19:33:21,878 [P752/D2/T8] ERROR UCommerce.Pipelines.Pipeline`1[[UCommerce.EntitiesV2.PurchaseOrder, UCommerce, Version=7.2.1.16274, Culture=neutral, PublicKeyToken=null]] - Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.Basket.BasketPipeline'. See inner exception for details.
+NHibernate.Exceptions.GenericADOException: could not insert: [UCommerce.EntitiesV2.OrderProperty][SQL: INSERT INTO uCommerce_OrderProperty ([key], Value, OrderId, OrderLineId) VALUES (?, ?, ?, ?); select SCOPE_IDENTITY()] ---> System.Data.SqlClient.SqlException: Cannot insert duplicate key row in object 'dbo.uCommerce_OrderProperty' with unique index 'IX_uCommerce_OrderProperty'. The duplicate key value is (_validCodesForDiscounts, 176, <NULL>).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Id.IdentityGenerator.InsertSelectDelegate.ExecuteAndExtract(IDbCommand insert, ISessionImplementor session)
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   --- End of inner exception stack trace ---
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Boolean[] notNull, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityIdentityInsertAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSaveOrReplicate(Object entity, EntityKey key, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSave(Object entity, Object id, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.SaveWithGeneratedId(Object entity, String entityName, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.SaveWithGeneratedOrRequestedId(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.EntityIsTransient(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.PerformSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.FireSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.SaveOrUpdate(String entityName, Object obj)
+   at NHibernate.Engine.CascadingAction.SaveUpdateCascadingAction.Cascade(IEventSource session, Object child, String entityName, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeToOne(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollectionElements(Object parent, Object child, CollectionType collectionType, CascadeStyle style, IType elemType, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollection(Object parent, Object child, CascadeStyle style, Object anything, CollectionType type)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeOn(IEntityPersister persister, Object parent, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.CascadeOnFlush(IEventSource session, IEntityPersister persister, Object key, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PrepareEntityFlushes(IEventSource session)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.FlushEverythingToExecutions(FlushEvent event)
+   at NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   at NHibernate.Impl.SessionImpl.Flush()
+   at UCommerce.EntitiesV2.Repository`1.Save(T entity)
+   at UCommerce.EntitiesV2.PurchaseOrder.Save()
+   at UCommerce.Pipelines.Common.SavePurchaseOrderTask.Execute(PurchaseOrder purchaseOrder)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+ 2016-10-22 19:33:21,880 [P752/D2/T8] ERROR UCommerce.Pipelines.Pipeline`1[[UCommerce.EntitiesV2.PurchaseOrder, UCommerce, Version=7.2.1.16274, Culture=neutral, PublicKeyToken=null]] - could not insert: [UCommerce.EntitiesV2.OrderProperty][SQL: INSERT INTO uCommerce_OrderProperty ([key], Value, OrderId, OrderLineId) VALUES (?, ?, ?, ?); select SCOPE_IDENTITY()]
+NHibernate.Exceptions.GenericADOException: could not insert: [UCommerce.EntitiesV2.OrderProperty][SQL: INSERT INTO uCommerce_OrderProperty ([key], Value, OrderId, OrderLineId) VALUES (?, ?, ?, ?); select SCOPE_IDENTITY()] ---> System.Data.SqlClient.SqlException: Cannot insert duplicate key row in object 'dbo.uCommerce_OrderProperty' with unique index 'IX_uCommerce_OrderProperty'. The duplicate key value is (_validCodesForDiscounts, 176, <NULL>).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Id.IdentityGenerator.InsertSelectDelegate.ExecuteAndExtract(IDbCommand insert, ISessionImplementor session)
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   --- End of inner exception stack trace ---
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Boolean[] notNull, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityIdentityInsertAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSaveOrReplicate(Object entity, EntityKey key, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSave(Object entity, Object id, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.SaveWithGeneratedId(Object entity, String entityName, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.SaveWithGeneratedOrRequestedId(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.EntityIsTransient(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.PerformSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.FireSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.SaveOrUpdate(String entityName, Object obj)
+   at NHibernate.Engine.CascadingAction.SaveUpdateCascadingAction.Cascade(IEventSource session, Object child, String entityName, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeToOne(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollectionElements(Object parent, Object child, CollectionType collectionType, CascadeStyle style, IType elemType, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollection(Object parent, Object child, CascadeStyle style, Object anything, CollectionType type)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeOn(IEntityPersister persister, Object parent, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.CascadeOnFlush(IEventSource session, IEntityPersister persister, Object key, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PrepareEntityFlushes(IEventSource session)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.FlushEverythingToExecutions(FlushEvent event)
+   at NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   at NHibernate.Impl.SessionImpl.Flush()
+   at UCommerce.EntitiesV2.Repository`1.Save(T entity)
+   at UCommerce.EntitiesV2.PurchaseOrder.Save()
+   at UCommerce.Pipelines.Common.SavePurchaseOrderTask.Execute(PurchaseOrder purchaseOrder)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+ 2016-10-22 19:33:21,880 [P752/D2/T8] ERROR UCommerce.Pipelines.Pipeline`1[[UCommerce.EntitiesV2.PurchaseOrder, UCommerce, Version=7.2.1.16274, Culture=neutral, PublicKeyToken=null]] - Cannot insert duplicate key row in object 'dbo.uCommerce_OrderProperty' with unique index 'IX_uCommerce_OrderProperty'. The duplicate key value is (_validCodesForDiscounts, 176, <NULL>).
+The statement has been terminated.
+NHibernate.Exceptions.GenericADOException: could not insert: [UCommerce.EntitiesV2.OrderProperty][SQL: INSERT INTO uCommerce_OrderProperty ([key], Value, OrderId, OrderLineId) VALUES (?, ?, ?, ?); select SCOPE_IDENTITY()] ---> System.Data.SqlClient.SqlException: Cannot insert duplicate key row in object 'dbo.uCommerce_OrderProperty' with unique index 'IX_uCommerce_OrderProperty'. The duplicate key value is (_validCodesForDiscounts, 176, <NULL>).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Id.IdentityGenerator.InsertSelectDelegate.ExecuteAndExtract(IDbCommand insert, ISessionImplementor session)
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   --- End of inner exception stack trace ---
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Boolean[] notNull, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityIdentityInsertAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSaveOrReplicate(Object entity, EntityKey key, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSave(Object entity, Object id, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.SaveWithGeneratedId(Object entity, String entityName, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.SaveWithGeneratedOrRequestedId(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.EntityIsTransient(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.PerformSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.FireSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.SaveOrUpdate(String entityName, Object obj)
+   at NHibernate.Engine.CascadingAction.SaveUpdateCascadingAction.Cascade(IEventSource session, Object child, String entityName, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeToOne(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollectionElements(Object parent, Object child, CollectionType collectionType, CascadeStyle style, IType elemType, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollection(Object parent, Object child, CascadeStyle style, Object anything, CollectionType type)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeOn(IEntityPersister persister, Object parent, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.CascadeOnFlush(IEventSource session, IEntityPersister persister, Object key, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PrepareEntityFlushes(IEventSource session)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.FlushEverythingToExecutions(FlushEvent event)
+   at NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   at NHibernate.Impl.SessionImpl.Flush()
+   at UCommerce.EntitiesV2.Repository`1.Save(T entity)
+   at UCommerce.EntitiesV2.PurchaseOrder.Save()
+   at UCommerce.Pipelines.Common.SavePurchaseOrderTask.Execute(PurchaseOrder purchaseOrder)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+ 2016-10-22 19:33:21,882 [P752/D2/T8] ERROR UCommerce.Pipelines.Pipeline`1[[UCommerce.Pipelines.IPipelineArgs`2[[UCommerce.Pipelines.AddToBasket.AddToBasketRequest, UCommerce, Version=7.2.1.16274, Culture=neutral, PublicKeyToken=null],[UCommerce.Pipelines.AddToBasket.AddToBasketResponse, UCommerce, Version=7.2.1.16274, Culture=neutral, PublicKeyToken=null]], UCommerce, Version=7.2.1.16274, Culture=neutral, PublicKeyToken=null]] - Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details.
+UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.Basket.BasketPipeline'. See inner exception for details. ---> NHibernate.Exceptions.GenericADOException: could not insert: [UCommerce.EntitiesV2.OrderProperty][SQL: INSERT INTO uCommerce_OrderProperty ([key], Value, OrderId, OrderLineId) VALUES (?, ?, ?, ?); select SCOPE_IDENTITY()] ---> System.Data.SqlClient.SqlException: Cannot insert duplicate key row in object 'dbo.uCommerce_OrderProperty' with unique index 'IX_uCommerce_OrderProperty'. The duplicate key value is (_validCodesForDiscounts, 176, <NULL>).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Id.IdentityGenerator.InsertSelectDelegate.ExecuteAndExtract(IDbCommand insert, ISessionImplementor session)
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   --- End of inner exception stack trace ---
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Boolean[] notNull, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityIdentityInsertAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSaveOrReplicate(Object entity, EntityKey key, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSave(Object entity, Object id, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.SaveWithGeneratedId(Object entity, String entityName, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.SaveWithGeneratedOrRequestedId(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.EntityIsTransient(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.PerformSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.FireSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.SaveOrUpdate(String entityName, Object obj)
+   at NHibernate.Engine.CascadingAction.SaveUpdateCascadingAction.Cascade(IEventSource session, Object child, String entityName, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeToOne(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollectionElements(Object parent, Object child, CollectionType collectionType, CascadeStyle style, IType elemType, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollection(Object parent, Object child, CascadeStyle style, Object anything, CollectionType type)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeOn(IEntityPersister persister, Object parent, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.CascadeOnFlush(IEventSource session, IEntityPersister persister, Object key, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PrepareEntityFlushes(IEventSource session)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.FlushEverythingToExecutions(FlushEvent event)
+   at NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   at NHibernate.Impl.SessionImpl.Flush()
+   at UCommerce.EntitiesV2.Repository`1.Save(T entity)
+   at UCommerce.EntitiesV2.PurchaseOrder.Save()
+   at UCommerce.Pipelines.Common.SavePurchaseOrderTask.Execute(PurchaseOrder purchaseOrder)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ExecuteBasketPipelineTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+ 2016-10-22 19:33:21,882 [P752/D2/T8] ERROR UCommerce.Pipelines.Pipeline`1[[UCommerce.Pipelines.IPipelineArgs`2[[UCommerce.Pipelines.AddToBasket.AddToBasketRequest, UCommerce, Version=7.2.1.16274, Culture=neutral, PublicKeyToken=null],[UCommerce.Pipelines.AddToBasket.AddToBasketResponse, UCommerce, Version=7.2.1.16274, Culture=neutral, PublicKeyToken=null]], UCommerce, Version=7.2.1.16274, Culture=neutral, PublicKeyToken=null]] - Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.Basket.BasketPipeline'. See inner exception for details.
+UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.Basket.BasketPipeline'. See inner exception for details. ---> NHibernate.Exceptions.GenericADOException: could not insert: [UCommerce.EntitiesV2.OrderProperty][SQL: INSERT INTO uCommerce_OrderProperty ([key], Value, OrderId, OrderLineId) VALUES (?, ?, ?, ?); select SCOPE_IDENTITY()] ---> System.Data.SqlClient.SqlException: Cannot insert duplicate key row in object 'dbo.uCommerce_OrderProperty' with unique index 'IX_uCommerce_OrderProperty'. The duplicate key value is (_validCodesForDiscounts, 176, <NULL>).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Id.IdentityGenerator.InsertSelectDelegate.ExecuteAndExtract(IDbCommand insert, ISessionImplementor session)
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   --- End of inner exception stack trace ---
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Boolean[] notNull, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityIdentityInsertAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSaveOrReplicate(Object entity, EntityKey key, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSave(Object entity, Object id, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.SaveWithGeneratedId(Object entity, String entityName, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.SaveWithGeneratedOrRequestedId(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.EntityIsTransient(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.PerformSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.FireSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.SaveOrUpdate(String entityName, Object obj)
+   at NHibernate.Engine.CascadingAction.SaveUpdateCascadingAction.Cascade(IEventSource session, Object child, String entityName, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeToOne(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollectionElements(Object parent, Object child, CollectionType collectionType, CascadeStyle style, IType elemType, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollection(Object parent, Object child, CascadeStyle style, Object anything, CollectionType type)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeOn(IEntityPersister persister, Object parent, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.CascadeOnFlush(IEventSource session, IEntityPersister persister, Object key, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PrepareEntityFlushes(IEventSource session)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.FlushEverythingToExecutions(FlushEvent event)
+   at NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   at NHibernate.Impl.SessionImpl.Flush()
+   at UCommerce.EntitiesV2.Repository`1.Save(T entity)
+   at UCommerce.EntitiesV2.PurchaseOrder.Save()
+   at UCommerce.Pipelines.Common.SavePurchaseOrderTask.Execute(PurchaseOrder purchaseOrder)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ExecuteBasketPipelineTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+ 2016-10-22 19:33:21,882 [P752/D2/T8] ERROR UCommerce.Pipelines.Pipeline`1[[UCommerce.Pipelines.IPipelineArgs`2[[UCommerce.Pipelines.AddToBasket.AddToBasketRequest, UCommerce, Version=7.2.1.16274, Culture=neutral, PublicKeyToken=null],[UCommerce.Pipelines.AddToBasket.AddToBasketResponse, UCommerce, Version=7.2.1.16274, Culture=neutral, PublicKeyToken=null]], UCommerce, Version=7.2.1.16274, Culture=neutral, PublicKeyToken=null]] - could not insert: [UCommerce.EntitiesV2.OrderProperty][SQL: INSERT INTO uCommerce_OrderProperty ([key], Value, OrderId, OrderLineId) VALUES (?, ?, ?, ?); select SCOPE_IDENTITY()]
+UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.Basket.BasketPipeline'. See inner exception for details. ---> NHibernate.Exceptions.GenericADOException: could not insert: [UCommerce.EntitiesV2.OrderProperty][SQL: INSERT INTO uCommerce_OrderProperty ([key], Value, OrderId, OrderLineId) VALUES (?, ?, ?, ?); select SCOPE_IDENTITY()] ---> System.Data.SqlClient.SqlException: Cannot insert duplicate key row in object 'dbo.uCommerce_OrderProperty' with unique index 'IX_uCommerce_OrderProperty'. The duplicate key value is (_validCodesForDiscounts, 176, <NULL>).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Id.IdentityGenerator.InsertSelectDelegate.ExecuteAndExtract(IDbCommand insert, ISessionImplementor session)
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   --- End of inner exception stack trace ---
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Boolean[] notNull, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityIdentityInsertAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSaveOrReplicate(Object entity, EntityKey key, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSave(Object entity, Object id, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.SaveWithGeneratedId(Object entity, String entityName, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.SaveWithGeneratedOrRequestedId(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.EntityIsTransient(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.PerformSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.FireSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.SaveOrUpdate(String entityName, Object obj)
+   at NHibernate.Engine.CascadingAction.SaveUpdateCascadingAction.Cascade(IEventSource session, Object child, String entityName, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeToOne(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollectionElements(Object parent, Object child, CollectionType collectionType, CascadeStyle style, IType elemType, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollection(Object parent, Object child, CascadeStyle style, Object anything, CollectionType type)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeOn(IEntityPersister persister, Object parent, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.CascadeOnFlush(IEventSource session, IEntityPersister persister, Object key, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PrepareEntityFlushes(IEventSource session)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.FlushEverythingToExecutions(FlushEvent event)
+   at NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   at NHibernate.Impl.SessionImpl.Flush()
+   at UCommerce.EntitiesV2.Repository`1.Save(T entity)
+   at UCommerce.EntitiesV2.PurchaseOrder.Save()
+   at UCommerce.Pipelines.Common.SavePurchaseOrderTask.Execute(PurchaseOrder purchaseOrder)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ExecuteBasketPipelineTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+ 2016-10-22 19:33:21,882 [P752/D2/T8] ERROR UCommerce.Pipelines.Pipeline`1[[UCommerce.Pipelines.IPipelineArgs`2[[UCommerce.Pipelines.AddToBasket.AddToBasketRequest, UCommerce, Version=7.2.1.16274, Culture=neutral, PublicKeyToken=null],[UCommerce.Pipelines.AddToBasket.AddToBasketResponse, UCommerce, Version=7.2.1.16274, Culture=neutral, PublicKeyToken=null]], UCommerce, Version=7.2.1.16274, Culture=neutral, PublicKeyToken=null]] - Cannot insert duplicate key row in object 'dbo.uCommerce_OrderProperty' with unique index 'IX_uCommerce_OrderProperty'. The duplicate key value is (_validCodesForDiscounts, 176, <NULL>).
+The statement has been terminated.
+UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.Basket.BasketPipeline'. See inner exception for details. ---> NHibernate.Exceptions.GenericADOException: could not insert: [UCommerce.EntitiesV2.OrderProperty][SQL: INSERT INTO uCommerce_OrderProperty ([key], Value, OrderId, OrderLineId) VALUES (?, ?, ?, ?); select SCOPE_IDENTITY()] ---> System.Data.SqlClient.SqlException: Cannot insert duplicate key row in object 'dbo.uCommerce_OrderProperty' with unique index 'IX_uCommerce_OrderProperty'. The duplicate key value is (_validCodesForDiscounts, 176, <NULL>).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Id.IdentityGenerator.InsertSelectDelegate.ExecuteAndExtract(IDbCommand insert, ISessionImplementor session)
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   --- End of inner exception stack trace ---
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Boolean[] notNull, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityIdentityInsertAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSaveOrReplicate(Object entity, EntityKey key, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSave(Object entity, Object id, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.SaveWithGeneratedId(Object entity, String entityName, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.SaveWithGeneratedOrRequestedId(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.EntityIsTransient(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.PerformSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.FireSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.SaveOrUpdate(String entityName, Object obj)
+   at NHibernate.Engine.CascadingAction.SaveUpdateCascadingAction.Cascade(IEventSource session, Object child, String entityName, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeToOne(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollectionElements(Object parent, Object child, CollectionType collectionType, CascadeStyle style, IType elemType, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollection(Object parent, Object child, CascadeStyle style, Object anything, CollectionType type)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeOn(IEntityPersister persister, Object parent, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.CascadeOnFlush(IEventSource session, IEntityPersister persister, Object key, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PrepareEntityFlushes(IEventSource session)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.FlushEverythingToExecutions(FlushEvent event)
+   at NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   at NHibernate.Impl.SessionImpl.Flush()
+   at UCommerce.EntitiesV2.Repository`1.Save(T entity)
+   at UCommerce.EntitiesV2.PurchaseOrder.Save()
+   at UCommerce.Pipelines.Common.SavePurchaseOrderTask.Execute(PurchaseOrder purchaseOrder)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ExecuteBasketPipelineTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+ 2016-10-22 19:33:21,883 [P752/D2/T8] ERROR System.Object - Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details.
+UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details. ---> UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.Basket.BasketPipeline'. See inner exception for details. ---> NHibernate.Exceptions.GenericADOException: could not insert: [UCommerce.EntitiesV2.OrderProperty][SQL: INSERT INTO uCommerce_OrderProperty ([key], Value, OrderId, OrderLineId) VALUES (?, ?, ?, ?); select SCOPE_IDENTITY()] ---> System.Data.SqlClient.SqlException: Cannot insert duplicate key row in object 'dbo.uCommerce_OrderProperty' with unique index 'IX_uCommerce_OrderProperty'. The duplicate key value is (_validCodesForDiscounts, 176, <NULL>).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Id.IdentityGenerator.InsertSelectDelegate.ExecuteAndExtract(IDbCommand insert, ISessionImplementor session)
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   --- End of inner exception stack trace ---
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Boolean[] notNull, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityIdentityInsertAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSaveOrReplicate(Object entity, EntityKey key, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSave(Object entity, Object id, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.SaveWithGeneratedId(Object entity, String entityName, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.SaveWithGeneratedOrRequestedId(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.EntityIsTransient(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.PerformSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.FireSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.SaveOrUpdate(String entityName, Object obj)
+   at NHibernate.Engine.CascadingAction.SaveUpdateCascadingAction.Cascade(IEventSource session, Object child, String entityName, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeToOne(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollectionElements(Object parent, Object child, CollectionType collectionType, CascadeStyle style, IType elemType, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollection(Object parent, Object child, CascadeStyle style, Object anything, CollectionType type)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeOn(IEntityPersister persister, Object parent, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.CascadeOnFlush(IEventSource session, IEntityPersister persister, Object key, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PrepareEntityFlushes(IEventSource session)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.FlushEverythingToExecutions(FlushEvent event)
+   at NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   at NHibernate.Impl.SessionImpl.Flush()
+   at UCommerce.EntitiesV2.Repository`1.Save(T entity)
+   at UCommerce.EntitiesV2.PurchaseOrder.Save()
+   at UCommerce.Pipelines.Common.SavePurchaseOrderTask.Execute(PurchaseOrder purchaseOrder)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ExecuteBasketPipelineTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Transactions.TransactionLibraryInternal.AddToBasket(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.TransactionLibraryInternalProxy.AddToBasket_callback(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_AddToBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-22 19:33:21,885 [P752/D2/T8] ERROR System.Object - Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.Basket.BasketPipeline'. See inner exception for details.
+UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details. ---> UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.Basket.BasketPipeline'. See inner exception for details. ---> NHibernate.Exceptions.GenericADOException: could not insert: [UCommerce.EntitiesV2.OrderProperty][SQL: INSERT INTO uCommerce_OrderProperty ([key], Value, OrderId, OrderLineId) VALUES (?, ?, ?, ?); select SCOPE_IDENTITY()] ---> System.Data.SqlClient.SqlException: Cannot insert duplicate key row in object 'dbo.uCommerce_OrderProperty' with unique index 'IX_uCommerce_OrderProperty'. The duplicate key value is (_validCodesForDiscounts, 176, <NULL>).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Id.IdentityGenerator.InsertSelectDelegate.ExecuteAndExtract(IDbCommand insert, ISessionImplementor session)
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   --- End of inner exception stack trace ---
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Boolean[] notNull, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityIdentityInsertAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSaveOrReplicate(Object entity, EntityKey key, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSave(Object entity, Object id, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.SaveWithGeneratedId(Object entity, String entityName, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.SaveWithGeneratedOrRequestedId(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.EntityIsTransient(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.PerformSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.FireSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.SaveOrUpdate(String entityName, Object obj)
+   at NHibernate.Engine.CascadingAction.SaveUpdateCascadingAction.Cascade(IEventSource session, Object child, String entityName, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeToOne(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollectionElements(Object parent, Object child, CollectionType collectionType, CascadeStyle style, IType elemType, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollection(Object parent, Object child, CascadeStyle style, Object anything, CollectionType type)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeOn(IEntityPersister persister, Object parent, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.CascadeOnFlush(IEventSource session, IEntityPersister persister, Object key, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PrepareEntityFlushes(IEventSource session)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.FlushEverythingToExecutions(FlushEvent event)
+   at NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   at NHibernate.Impl.SessionImpl.Flush()
+   at UCommerce.EntitiesV2.Repository`1.Save(T entity)
+   at UCommerce.EntitiesV2.PurchaseOrder.Save()
+   at UCommerce.Pipelines.Common.SavePurchaseOrderTask.Execute(PurchaseOrder purchaseOrder)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ExecuteBasketPipelineTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Transactions.TransactionLibraryInternal.AddToBasket(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.TransactionLibraryInternalProxy.AddToBasket_callback(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_AddToBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-22 19:33:21,885 [P752/D2/T8] ERROR System.Object - could not insert: [UCommerce.EntitiesV2.OrderProperty][SQL: INSERT INTO uCommerce_OrderProperty ([key], Value, OrderId, OrderLineId) VALUES (?, ?, ?, ?); select SCOPE_IDENTITY()]
+UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details. ---> UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.Basket.BasketPipeline'. See inner exception for details. ---> NHibernate.Exceptions.GenericADOException: could not insert: [UCommerce.EntitiesV2.OrderProperty][SQL: INSERT INTO uCommerce_OrderProperty ([key], Value, OrderId, OrderLineId) VALUES (?, ?, ?, ?); select SCOPE_IDENTITY()] ---> System.Data.SqlClient.SqlException: Cannot insert duplicate key row in object 'dbo.uCommerce_OrderProperty' with unique index 'IX_uCommerce_OrderProperty'. The duplicate key value is (_validCodesForDiscounts, 176, <NULL>).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Id.IdentityGenerator.InsertSelectDelegate.ExecuteAndExtract(IDbCommand insert, ISessionImplementor session)
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   --- End of inner exception stack trace ---
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Boolean[] notNull, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityIdentityInsertAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSaveOrReplicate(Object entity, EntityKey key, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSave(Object entity, Object id, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.SaveWithGeneratedId(Object entity, String entityName, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.SaveWithGeneratedOrRequestedId(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.EntityIsTransient(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.PerformSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.FireSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.SaveOrUpdate(String entityName, Object obj)
+   at NHibernate.Engine.CascadingAction.SaveUpdateCascadingAction.Cascade(IEventSource session, Object child, String entityName, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeToOne(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollectionElements(Object parent, Object child, CollectionType collectionType, CascadeStyle style, IType elemType, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollection(Object parent, Object child, CascadeStyle style, Object anything, CollectionType type)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeOn(IEntityPersister persister, Object parent, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.CascadeOnFlush(IEventSource session, IEntityPersister persister, Object key, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PrepareEntityFlushes(IEventSource session)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.FlushEverythingToExecutions(FlushEvent event)
+   at NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   at NHibernate.Impl.SessionImpl.Flush()
+   at UCommerce.EntitiesV2.Repository`1.Save(T entity)
+   at UCommerce.EntitiesV2.PurchaseOrder.Save()
+   at UCommerce.Pipelines.Common.SavePurchaseOrderTask.Execute(PurchaseOrder purchaseOrder)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ExecuteBasketPipelineTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Transactions.TransactionLibraryInternal.AddToBasket(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.TransactionLibraryInternalProxy.AddToBasket_callback(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_AddToBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-22 19:33:21,885 [P752/D2/T8] ERROR System.Object - Cannot insert duplicate key row in object 'dbo.uCommerce_OrderProperty' with unique index 'IX_uCommerce_OrderProperty'. The duplicate key value is (_validCodesForDiscounts, 176, <NULL>).
+The statement has been terminated.
+UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details. ---> UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.Basket.BasketPipeline'. See inner exception for details. ---> NHibernate.Exceptions.GenericADOException: could not insert: [UCommerce.EntitiesV2.OrderProperty][SQL: INSERT INTO uCommerce_OrderProperty ([key], Value, OrderId, OrderLineId) VALUES (?, ?, ?, ?); select SCOPE_IDENTITY()] ---> System.Data.SqlClient.SqlException: Cannot insert duplicate key row in object 'dbo.uCommerce_OrderProperty' with unique index 'IX_uCommerce_OrderProperty'. The duplicate key value is (_validCodesForDiscounts, 176, <NULL>).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Id.IdentityGenerator.InsertSelectDelegate.ExecuteAndExtract(IDbCommand insert, ISessionImplementor session)
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   --- End of inner exception stack trace ---
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Boolean[] notNull, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityIdentityInsertAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSaveOrReplicate(Object entity, EntityKey key, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSave(Object entity, Object id, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.SaveWithGeneratedId(Object entity, String entityName, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.SaveWithGeneratedOrRequestedId(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.EntityIsTransient(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.PerformSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.FireSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.SaveOrUpdate(String entityName, Object obj)
+   at NHibernate.Engine.CascadingAction.SaveUpdateCascadingAction.Cascade(IEventSource session, Object child, String entityName, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeToOne(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollectionElements(Object parent, Object child, CollectionType collectionType, CascadeStyle style, IType elemType, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeCollection(Object parent, Object child, CascadeStyle style, Object anything, CollectionType type)
+   at NHibernate.Engine.Cascade.CascadeAssociation(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeProperty(Object parent, Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   at NHibernate.Engine.Cascade.CascadeOn(IEntityPersister persister, Object parent, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.CascadeOnFlush(IEventSource session, IEntityPersister persister, Object key, Object anything)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PrepareEntityFlushes(IEventSource session)
+   at NHibernate.Event.Default.AbstractFlushingEventListener.FlushEverythingToExecutions(FlushEvent event)
+   at NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   at NHibernate.Impl.SessionImpl.Flush()
+   at UCommerce.EntitiesV2.Repository`1.Save(T entity)
+   at UCommerce.EntitiesV2.PurchaseOrder.Save()
+   at UCommerce.Pipelines.Common.SavePurchaseOrderTask.Execute(PurchaseOrder purchaseOrder)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ExecuteBasketPipelineTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Transactions.TransactionLibraryInternal.AddToBasket(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.TransactionLibraryInternalProxy.AddToBasket_callback(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_AddToBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-22 19:34:12,383 [P752/D2/T14] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-21 19:34:12
+ 2016-10-22 19:34:20,694 [P752/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.

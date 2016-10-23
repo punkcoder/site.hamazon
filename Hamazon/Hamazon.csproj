@@ -669,6 +669,7 @@
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ApiCartController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -719,6 +720,7 @@
     <Content Include="js\jquery.min.map" />
     <Content Include="Views\ApplicationPage.cshtml" />
     <Content Include="Views\MacroPartials\umbShoppingCart.cshtml" />
+    <Content Include="Views\MacroPartials\umbLogin.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

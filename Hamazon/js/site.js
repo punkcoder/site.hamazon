@@ -19,12 +19,12 @@ function getBasketCount() {
 }
 function getBasket() {
     jQuery.get('/Umbraco/Api/Cart/GetBasket', null, function success(data) {
-        var source = $("#cart-line").html();
+        var source = jQuery("#cart-line").html();
         var template = Handlebars.compile(source);
         var context = data;
         var html = template(context);
-        $("#lineitems").html(html);
-        $("#subtotal").html("$" + data.subtotal);
+        jQuery("#lineitems").html(html);
+        jQuery("#subtotal").html("$" + data.subtotal);
     });
 }
 function removeCartItem(cartLineItem) {
@@ -35,5 +35,18 @@ function removeCartItem(cartLineItem) {
 function ClearCart() {
     jQuery.post('/Umbraco/Api/Cart/ClearCart', null, function success(data) {
         getBasket();
+    });
+}
+function Login() {
+    var emailaddress = jQuery("#txtEmailAddress").val();
+    var password = jQuery("#txtPassword").val();
+
+    var request = {
+        "email": emailaddress,
+        "password": password
+    }
+
+    jQuery.post('/Umbraco/Api/User/LoginUser', request, function success(data) {
+        
     });
 }
