@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hamazon", "Hamazon\Hamazon.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hamazon.Tests", "Hamazon.Tests\Hamazon.Tests.csproj", "{88C29E99-C907-40DE-AB43-442FD9BF2432}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SecurityIssues", "SecurityIssues", "{DCDFD6A9-D7DF-4C66-9D3E-6C9B942E3B60}"
+	ProjectSection(SolutionItems) = preProject
+		SecurityIssues.md = SecurityIssues.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

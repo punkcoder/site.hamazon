@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Web;
 using System.Web.Http;
 using System.Web.Security;
@@ -17,8 +19,9 @@ namespace Hamazon.Controllers
     public class UserController : UmbracoApiController
     {
         [System.Web.Mvc.HttpPost]
-        public bool LoginUser([FromBody] LoginRequest request)
+        public HttpResponseMessage LoginUser([FromBody] LoginRequest request)
         {
+            var resp = new HttpResponseMessage();
             try
             {
                 var memberservices = Services.MemberService;
@@ -29,14 +32,33 @@ namespace Hamazon.Controllers
                     if (Membership.ValidateUser(request.email, request.password))
                     {
                         FormsAuthentication.SetAuthCookie(request.email, true);
+
+                        var payload = new Dictionary<string, object>()
+                        {
+                            { "email", request.email },
+                            { "password", request.password }
+                        };
+                        var secretKey = "GQDstcKsx0NHjPOuXOYg5MbeJ1XT0uFiwDVvVBrk";
+                        string token = JWT.JsonWebToken.Encode(payload, secretKey, JWT.JwtHashAlgorithm.HS256);
+
+                        resp.Headers.AddCookies(new CookieHeaderValue[] {new CookieHeaderValue("jwt", token)} );
+                        resp.Content = new StringContent("true");
                     }
+                    else
+                    {
+                        resp.Content = new StringContent("false:LoginIncorrect");
+                    }
+                }
+                else
+                {
+                    resp.Content = new StringContent("false:NotFound");
                 }
             }
             catch (Exception Ex)
             {
-                return false;
+                resp.Content = new StringContent("false:AllHellBrokeLoose"); 
             }
-            return true;
+            return resp;
         }
     }
 }
