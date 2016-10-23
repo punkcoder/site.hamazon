@@ -6,6 +6,7 @@ using System.Net.Http.Headers;
 using System.Web;
 using System.Web.Http;
 using System.Web.Security;
+using umbraco.NodeFactory;
 using Umbraco.Web.WebApi;
 
 namespace Hamazon.Controllers
@@ -64,6 +65,8 @@ namespace Hamazon.Controllers
         [System.Web.Mvc.HttpPost]
         public HttpResponse LogoutUser()
         {
+            var user = Umbraco.MembershipHelper.GetCurrentMember();
+            FormsAuthentication.SetAuthCookie(user.Name, false);
             return null;
         }
     }

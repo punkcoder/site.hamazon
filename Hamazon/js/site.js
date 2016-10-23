@@ -49,7 +49,13 @@ function Login() {
     jQuery.post('/Umbraco/Api/User/LoginUser', request, function success(data) {
         if (data.substring(0,5) != "false") {
             document.cookie = "jwt=" + data + ";" + document.cookie;
-            console.log("set cookie");
+            location.reload();
         }
+    });
+}
+function Logout() {
+    jQuery.post('/Umbraco/Api/User/LogoutUser', null, function success(data) {
+        document.cookie = 'jwt=; expires=Thu, 01-Jan-70 00:00:01 GMT;';
+        location.reload();
     });
 }
