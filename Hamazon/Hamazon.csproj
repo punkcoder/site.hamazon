@@ -725,6 +725,8 @@
     <Content Include="Views\ApplicationPage.cshtml" />
     <Content Include="Views\MacroPartials\umbShoppingCart.cshtml" />
     <Content Include="Views\MacroPartials\umbLogin.cshtml" />
+    <Content Include="Views\MacroPartials\umbProductDetail.cshtml" />
+    <Content Include="Views\MacroPartials\umbProductNotes.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

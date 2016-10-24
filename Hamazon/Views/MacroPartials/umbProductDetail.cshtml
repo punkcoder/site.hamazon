@@ -1,0 +1,33 @@
+﻿@using System.Configuration
+@using System.Data.SqlClient
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@{
+    var querystringid = Request.QueryString["sku"];
+    var sqlselect = "Select ProductId, SKU from [uCommerce_Product] where Sku = '" + querystringid + "';";
+
+    var connection = new SqlConnection(ConfigurationManager.ConnectionStrings["umbracoDbDSN"].ConnectionString);
+    var command = new SqlCommand(sqlselect, connection);
+    var productId = 0;
+    var SKU = string.Empty;
+
+    if (connection.State != System.Data.ConnectionState.Open)
+    {
+        connection.Open();
+    }
+
+    var reader = command.ExecuteReader();
+    while (reader.Read())
+    {
+        productId = reader.GetInt32(0);
+        SKU = reader.GetString(1);
+    }
+    if (connection.State != System.Data.ConnectionState.Closed)
+    {
+        connection.Close();
+    }
+}
+
+<div>
+    <div class="">Product Id: @productId</div>
+    <div class="">SKU: @SKU</div>
+</div>
