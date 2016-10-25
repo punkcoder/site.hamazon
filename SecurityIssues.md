@@ -2,7 +2,6 @@
 
 The goal of this application is to show off security issues that have been witnessed in the public space.
 
-
 membership user: testuser@gmail.com:P@ssw0rd
 
 ## SQL Injection
@@ -14,5 +13,6 @@ membership user: testuser@gmail.com:P@ssw0rd
 2. Dont use the default password from websites... (Click Here)[https://github.com/jwt-dotnet/jwt]
 
 ## Cross Site Scripting
+1. Cross Site Scripting is available through the comment module on one of the product detail page.
 
 ## Insecure Direct Object References
