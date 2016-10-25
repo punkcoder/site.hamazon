@@ -6,7 +6,6 @@ membership user: testuser@gmail.com:P@ssw0rd
 
 ## SQL Injection
 1. SQL Map via: python sqlmap.py -u "http://hamazon.localpc.com/products/product-detail-page/?sku=00001" --level=5 --risk=2 --dump-all --threads 10 -o --time-sec=1
-2. 
 
 ## Authentication / Session Management
 1. Dont store sensitive values in JWT Tokens... (Check Here)[https://jwt.io/]
@@ -14,6 +13,7 @@ membership user: testuser@gmail.com:P@ssw0rd
 
 ## Cross Site Scripting
 1. Cross Site Scripting is available through the comment module on one of the product detail page.
+2. Comment on the Duck Bacon page adds Speck Bacon to the cart at the rate of 1 per second.
 
 ## Insecure Direct Object References
 1. The query string that is in the member profile can be iterated on the integer to get direct access to user infromation. 
