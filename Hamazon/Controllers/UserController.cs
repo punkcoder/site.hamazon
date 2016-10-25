@@ -11,12 +11,6 @@ using Umbraco.Web.WebApi;
 
 namespace Hamazon.Controllers
 {
-    public class LoginRequest
-    {
-        public string email { get; set; }
-        public string password { get; set; }
-    }
-
     public class UserController : UmbracoApiController
     {
         [System.Web.Mvc.HttpPost]

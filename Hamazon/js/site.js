@@ -32,12 +32,12 @@ function removeCartItem(cartLineItem) {
         getBasket();
     });
 }
-function ClearCart() {
-    jQuery.post('/Umbraco/Api/Cart/ClearCart', null, function success(data) {
+function clearCart() {
+    jQuery.post('/Umbraco/Api/Cart/clearCart', null, function success(data) {
         getBasket();
     });
 }
-function Login() {
+function login() {
     var emailaddress = jQuery("#txtEmailAddress").val();
     var password = jQuery("#txtPassword").val();
 
@@ -53,9 +53,37 @@ function Login() {
         }
     });
 }
-function Logout() {
+function logout() {
     jQuery.post('/Umbraco/Api/User/LogoutUser', null, function success(data) {
         document.cookie = 'jwt=; expires=Thu, 01-Jan-70 00:00:01 GMT;';
         location.reload();
+    });
+}
+function addComment() {
+    var request = {
+        'ProductId': jQuery('#intProductId').val(),
+        'Subject': jQuery('#txtSubject').val(),
+        'Comments': jQuery('#txtComments').val(),
+        'EmailAddress': jQuery('#txtEmailAddress').val()
+    };
+
+    jQuery.post('/Umbraco/Api/Comment/AddComment', request, function success(data) {
+        jQuery('#intProductId').val('');
+        jQuery('#txtSubject').val('');
+        jQuery('#txtComments').val('');
+        jQuery('#txtEmailAddress').val('');
+
+        loadComments();
+    });  
+}
+
+function loadComments() {
+    var productId = jQuery('#intProductId').val();
+    jQuery.get('/Umbraco/Api/Comment/GetComments?ProductId='+productId , null, function success(data) {
+        var source = jQuery("#comments").html();
+        var template = Handlebars.compile(source);
+        var context = data;
+        var html = template(context);
+        jQuery("#commentItems").html(html);
     });
 }

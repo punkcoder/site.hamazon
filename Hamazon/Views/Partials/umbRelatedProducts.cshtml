@@ -27,12 +27,14 @@
     <h2 class="major"><span>Related Products</span></h2>
 }
 @foreach (var prod in products)
-    {
-        var price = prod.PriceGroupPrices.FirstOrDefault().Price != null ? prod.PriceGroupPrices.FirstOrDefault().Price.Value.ToString("C") : "Unavailable";
-        
-        <div class="smallProductContainer">
+{
+    var price = prod.PriceGroupPrices.FirstOrDefault().Price != null ? prod.PriceGroupPrices.FirstOrDefault().Price.Value.ToString("C") : "Unavailable";
+
+    <div class="smallProductContainer">
         <div class="smallProductImage">
-            <img alt="Product Image" src="@Umbraco.Media(prod.PrimaryImageMediaId).NiceUrl()" class="smallProductImage" />
+            <a href="/product-detail-page/?sku=@prod.Sku">
+                <img alt="Product Image" src="@Umbraco.Media(prod.PrimaryImageMediaId).NiceUrl()" class="smallProductImage" />
+            </a>
         </div>
         <div>
             <div class="smallProductPrice">@price</div>
