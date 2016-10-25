@@ -730,6 +730,8 @@
     <Content Include="Views\MacroPartials\umbLogin.cshtml" />
     <Content Include="Views\MacroPartials\umbProductDetail.cshtml" />
     <Content Include="Views\MacroPartials\umbProductNotes.cshtml" />
+    <Content Include="Views\MacroPartials\umbUserDetails.cshtml" />
+    <Content Include="Views\MacroPartials\umbUserAccess.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -28312,3 +28312,984 @@ _shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needF
    at System.Threading.ThreadPoolWorkQueue.Dispatch()
    at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
  2016-10-24 19:22:50,593 [P10956/D3/T35] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-23 19:22:50
+ 2016-10-24 19:36:28,453 [P5276/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on DESKTOP-UFC91S6
+ 2016-10-24 19:36:28,499 [P5276/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-10-24 19:36:28,511 [P5276/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2016-10-24 19:36:28,603 [P5276/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-10-24 19:36:28,768 [P5276/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 165ms)
+ 2016-10-24 19:36:28,839 [P5276/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-10-24 19:36:28,840 [P5276/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-10-24 19:36:28,840 [P5276/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-10-24 19:36:28,841 [P5276/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
+ 2016-10-24 19:36:28,853 [P5276/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-10-24 19:36:28,853 [P5276/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-10-24 19:36:28,854 [P5276/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-10-24 19:36:28,881 [P5276/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 27ms)
+ 2016-10-24 19:36:28,980 [P5276/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-10-24 19:36:28,980 [P5276/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-10-24 19:36:28,981 [P5276/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-10-24 19:36:28,981 [P5276/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-10-24 19:36:29,490 [P5276/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 19:36:29,615 [P5276/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 19:36:29,620 [P5276/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 19:36:29,637 [P5276/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-10-24 19:36:29,705 [P5276/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-10-24 19:36:29,751 [P5276/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-10-24 19:36:29,760 [P5276/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1362ms)
+ 2016-10-24 19:36:33,648 [P5276/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50874/umbraco (UmbracoModule request)
+ 2016-10-24 19:36:35,367 [P5276/D2/T8] INFO  umbraco.content - Load Xml from file...
+ 2016-10-24 19:36:35,369 [P5276/D2/T8] INFO  umbraco.content - Loaded Xml from file.
+ 2016-10-24 19:36:35,471 [P5276/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-10-24 19:36:35,472 [P5276/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2016-10-24 19:36:35,857 [P5276/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-24 19:36:35,858 [P5276/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-10-24 19:36:56,067 [P5276/D2/T8] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username james.mckee.jr@gmail.com from IP address ::1
+ 2016-10-24 19:36:56,186 [P5276/D2/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-10-24 19:36:56,199 [P5276/D2/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 12ms)
+ 2016-10-24 19:36:56,288 [P5276/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-10-24 19:36:56,315 [P5276/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 27ms)
+ 2016-10-24 19:36:56,316 [P5276/D2/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-10-24 19:36:56,345 [P5276/D2/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 28ms)
+ 2016-10-24 19:36:56,345 [P5276/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-10-24 19:36:56,345 [P5276/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-10-24 19:36:56,348 [P5276/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-10-24 19:36:56,371 [P5276/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 22ms)
+ 2016-10-24 19:37:26,474 [P5276/D2/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-10-24 19:37:26,498 [P5276/D2/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 24ms)
+ 2016-10-24 19:37:36,575 [P5276/D2/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-23 19:37:36
+ 2016-10-24 19:38:42,428 [P1848/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on DESKTOP-UFC91S6
+ 2016-10-24 19:38:42,456 [P1848/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-10-24 19:38:42,464 [P1848/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2016-10-24 19:38:42,559 [P1848/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-10-24 19:38:42,568 [P1848/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 8ms)
+ 2016-10-24 19:38:42,585 [P1848/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-10-24 19:38:42,586 [P1848/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-10-24 19:38:42,586 [P1848/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-10-24 19:38:42,587 [P1848/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
+ 2016-10-24 19:38:42,599 [P1848/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-10-24 19:38:42,600 [P1848/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-10-24 19:38:42,600 [P1848/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-10-24 19:38:42,602 [P1848/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 1ms)
+ 2016-10-24 19:38:42,629 [P1848/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-10-24 19:38:42,630 [P1848/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-10-24 19:38:42,630 [P1848/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-10-24 19:38:42,631 [P1848/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-10-24 19:38:43,194 [P1848/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 19:38:43,343 [P1848/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 19:38:43,348 [P1848/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 19:38:43,361 [P1848/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-10-24 19:38:43,375 [P1848/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-10-24 19:38:43,421 [P1848/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-10-24 19:38:43,428 [P1848/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1062ms)
+ 2016-10-24 19:38:44,413 [P1848/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://hamazon.localpc.com:80/umbraco (UmbracoModule request)
+ 2016-10-24 19:38:47,504 [P1848/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-24 19:38:47,505 [P1848/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-10-24 19:38:55,652 [P1848/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-10-24 19:38:55,653 [P1848/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2016-10-24 19:38:55,834 [P1848/D2/T6] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username james.mckee.jr@gmail.com from IP address 127.0.0.1
+ 2016-10-24 19:38:55,972 [P1848/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-10-24 19:38:55,973 [P1848/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-10-24 19:38:56,045 [P1848/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-10-24 19:38:56,046 [P1848/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-10-24 19:38:56,057 [P1848/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-10-24 19:38:56,057 [P1848/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-10-24 19:38:56,060 [P1848/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-10-24 19:38:56,061 [P1848/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-10-24 19:38:56,073 [P1848/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-10-24 19:38:56,074 [P1848/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2016-10-24 19:39:04,778 [P1848/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-10-24 19:39:04,778 [P1848/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-10-24 19:39:29,934 [P1848/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-10-24 19:39:29,935 [P1848/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 0ms)
+ 2016-10-24 19:39:47,254 [P1848/D2/T12] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-23 19:39:47
+ 2016-10-24 19:39:47,258 [P1848/D2/T8] INFO  umbraco.content - Load Xml from file...
+ 2016-10-24 19:39:47,260 [P1848/D2/T8] INFO  umbraco.content - Loaded Xml from file.
+ 2016-10-24 19:44:28,742 [P1848/D2/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-10-24 19:44:28,742 [P1848/D2/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-10-24 19:44:28,742 [P1848/D2/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-10-24 19:44:28,742 [P1848/D2/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-10-24 19:44:28,742 [P1848/D2/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-10-24 19:44:28,742 [P1848/D2/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-10-24 19:44:28,742 [P1848/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-10-24 19:44:28,742 [P1848/D2/T14] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-10-24 19:44:28,742 [P1848/D2/T65] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-10-24 19:44:28,759 [P1848/D2/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-10-24 19:44:28,759 [P1848/D2/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-10-24 19:44:28,759 [P1848/D2/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-10-24 22:21:40,448 [P8484/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on DESKTOP-UFC91S6
+ 2016-10-24 22:21:40,484 [P8484/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-10-24 22:21:40,498 [P8484/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 12ms)
+ 2016-10-24 22:21:40,623 [P8484/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-10-24 22:21:40,634 [P8484/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 10ms)
+ 2016-10-24 22:21:40,662 [P8484/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-10-24 22:21:40,663 [P8484/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2016-10-24 22:21:40,664 [P8484/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-10-24 22:21:40,665 [P8484/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2016-10-24 22:21:40,678 [P8484/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-10-24 22:21:40,679 [P8484/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-10-24 22:21:40,679 [P8484/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-10-24 22:21:40,682 [P8484/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 2ms)
+ 2016-10-24 22:21:40,730 [P8484/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-10-24 22:21:40,732 [P8484/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2016-10-24 22:21:40,732 [P8484/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-10-24 22:21:40,733 [P8484/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-10-24 22:21:41,243 [P8484/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 22:21:41,417 [P8484/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 22:21:41,424 [P8484/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 22:21:41,440 [P8484/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-10-24 22:21:41,453 [P8484/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-10-24 22:21:41,498 [P8484/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-10-24 22:21:41,507 [P8484/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1111ms)
+ 2016-10-24 22:21:43,402 [P8484/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50874/umbraco (UmbracoModule request)
+ 2016-10-24 22:21:46,205 [P8484/D2/T6] INFO  umbraco.content - Load Xml from file...
+ 2016-10-24 22:21:46,219 [P8484/D2/T6] INFO  umbraco.content - Loaded Xml from file.
+ 2016-10-24 22:21:46,367 [P8484/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-10-24 22:21:46,368 [P8484/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2016-10-24 22:21:47,290 [P8484/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-24 22:21:47,294 [P8484/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 3ms)
+ 2016-10-24 22:21:56,106 [P8484/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-10-24 22:21:56,107 [P8484/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-10-24 22:22:55,517 [P8484/D2/T12] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-23 22:22:55
+ 2016-10-24 22:33:11,749 [P11308/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on DESKTOP-UFC91S6
+ 2016-10-24 22:33:11,776 [P11308/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-10-24 22:33:11,784 [P11308/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 8ms)
+ 2016-10-24 22:33:11,880 [P11308/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-10-24 22:33:12,115 [P11308/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 234ms)
+ 2016-10-24 22:33:12,135 [P11308/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-10-24 22:33:12,151 [P11308/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 16ms)
+ 2016-10-24 22:33:12,152 [P11308/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-10-24 22:33:12,176 [P11308/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 23ms)
+ 2016-10-24 22:33:12,197 [P11308/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-10-24 22:33:12,213 [P11308/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 16ms)
+ 2016-10-24 22:33:12,214 [P11308/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-10-24 22:33:12,234 [P11308/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 20ms)
+ 2016-10-24 22:33:12,275 [P11308/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-10-24 22:33:12,287 [P11308/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 12ms)
+ 2016-10-24 22:33:12,287 [P11308/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-10-24 22:33:12,296 [P11308/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 9ms)
+ 2016-10-24 22:33:12,768 [P11308/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 22:33:12,893 [P11308/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 22:33:12,896 [P11308/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 22:33:12,906 [P11308/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-10-24 22:33:12,915 [P11308/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-10-24 22:33:12,956 [P11308/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-10-24 22:33:12,961 [P11308/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1262ms)
+ 2016-10-24 22:33:14,461 [P11308/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50874/umbraco (UmbracoModule request)
+ 2016-10-24 22:33:16,567 [P11308/D2/T8] INFO  umbraco.content - Load Xml from file...
+ 2016-10-24 22:33:16,572 [P11308/D2/T8] INFO  umbraco.content - Loaded Xml from file.
+ 2016-10-24 22:33:16,645 [P11308/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-10-24 22:33:16,657 [P11308/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 12ms)
+ 2016-10-24 22:33:16,692 [P11308/D2/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 22:33:17,221 [P11308/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-24 22:33:17,295 [P11308/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 73ms)
+ 2016-10-24 22:33:22,946 [P11308/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-10-24 22:33:22,963 [P11308/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 17ms)
+ 2016-10-24 22:33:26,843 [P11308/D2/T8] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 22:33:26,924 [P11308/D2/T8] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 22:33:29,469 [P11308/D2/T8] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 22:34:13,639 [P11308/D2/T8] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 22:34:15,237 [P11308/D2/T15] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username testuser@gmail.com from IP address ::1
+ 2016-10-24 22:34:26,565 [P11308/D2/T12] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-23 22:34:26
+ 2016-10-24 22:34:48,665 [P11308/D2/T10] WARN  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: Unprotect ticket failed
+ 2016-10-24 22:34:49,590 [P11308/D2/T15] WARN  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: Unprotect ticket failed
+ 2016-10-24 22:34:50,377 [P11308/D2/T14] WARN  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: Unprotect ticket failed
+ 2016-10-24 22:34:50,392 [P11308/D2/T14] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 22:34:50,436 [P11308/D2/T15] WARN  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: Unprotect ticket failed
+ 2016-10-24 22:34:50,443 [P11308/D2/T15] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 22:34:54,354 [P11308/D2/T10] WARN  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: Unprotect ticket failed
+ 2016-10-24 22:35:00,287 [P11308/D2/T10] WARN  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: Unprotect ticket failed
+ 2016-10-24 22:35:00,415 [P11308/D2/T10] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username james.mckee.jr@gmail.com from IP address ::1
+ 2016-10-24 22:35:00,521 [P11308/D2/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-10-24 22:35:00,530 [P11308/D2/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 9ms)
+ 2016-10-24 22:35:00,615 [P11308/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-10-24 22:35:00,634 [P11308/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 19ms)
+ 2016-10-24 22:35:00,645 [P11308/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-10-24 22:35:00,664 [P11308/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 19ms)
+ 2016-10-24 22:35:00,664 [P11308/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-10-24 22:35:00,664 [P11308/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-10-24 22:35:00,665 [P11308/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-10-24 22:35:00,684 [P11308/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 18ms)
+ 2016-10-24 22:35:24,708 [P11308/D2/T14] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login / Sign Up' with Id '2079' has been published.
+ 2016-10-24 22:35:24,776 [P11308/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-10-24 22:35:24,803 [P11308/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 27ms)
+ 2016-10-24 22:35:28,860 [P11308/D2/T13] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 22:35:28,867 [P11308/D2/T9] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 22:35:43,264 [P11308/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-24 22:35:43,265 [P11308/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-10-24 22:36:33,944 [P11308/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login / Sign Up' with Id '2079' has been published.
+ 2016-10-24 22:36:37,502 [P11308/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login / Sign Up' with Id '2079' has been published.
+ 2016-10-24 22:36:41,532 [P11308/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 22:36:41,550 [P11308/D2/T10] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 22:38:22,401 [P11308/D2/T9] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 22:40:47,402 [P11308/D2/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Users' with Id '0' has been published.
+ 2016-10-24 22:40:51,436 [P11308/D2/T32] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 22:40:51,470 [P11308/D2/T24] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 22:40:53,756 [P11308/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Users' with Id '2088' has been published.
+ 2016-10-24 22:40:57,779 [P11308/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 22:40:57,800 [P11308/D2/T32] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 22:42:31,965 [P11308/D2/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Member Profile' with Id '2085' has been published.
+ 2016-10-24 22:42:35,999 [P11308/D2/T29] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 22:42:36,021 [P11308/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 22:43:02,549 [P11308/D2/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cart' with Id '2078' has been published.
+ 2016-10-24 22:43:02,549 [P11308/D2/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login / Sign Up' with Id '2079' has been published.
+ 2016-10-24 22:43:02,549 [P11308/D2/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Product Detail Page' with Id '2081' has been published.
+ 2016-10-24 22:43:02,549 [P11308/D2/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Users' with Id '2088' has been published.
+ 2016-10-24 22:43:02,549 [P11308/D2/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'News' with Id '1061' has been published.
+ 2016-10-24 22:43:06,670 [P11308/D2/T29] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 22:43:06,705 [P11308/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 22:43:23,282 [P11308/D2/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Products' with Id '0' has been published.
+ 2016-10-24 22:43:27,293 [P11308/D2/T34] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 22:43:27,302 [P11308/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 22:43:34,297 [P11308/D2/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Products' with Id '2089' has been published.
+ 2016-10-24 22:43:34,297 [P11308/D2/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'News' with Id '1061' has been published.
+ 2016-10-24 22:43:38,403 [P11308/D2/T29] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 22:43:38,415 [P11308/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 22:43:44,531 [P11308/D2/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Product Detail Page' with Id '2081' has been published.
+ 2016-10-24 22:43:48,560 [P11308/D2/T13] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 22:43:48,579 [P11308/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 22:44:04,242 [P11308/D2/T8] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 22:44:27,624 [P11308/D2/T26] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 22:44:36,034 [P11308/D2/T26] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 22:45:15,525 [P848/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on DESKTOP-UFC91S6
+ 2016-10-24 22:45:15,557 [P848/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-10-24 22:45:15,566 [P848/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2016-10-24 22:45:15,671 [P848/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-10-24 22:45:15,680 [P848/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 8ms)
+ 2016-10-24 22:45:15,698 [P848/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-10-24 22:45:15,699 [P848/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-10-24 22:45:15,699 [P848/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-10-24 22:45:15,700 [P848/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
+ 2016-10-24 22:45:15,714 [P848/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-10-24 22:45:15,714 [P848/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-10-24 22:45:15,714 [P848/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-10-24 22:45:15,716 [P848/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 1ms)
+ 2016-10-24 22:45:15,753 [P848/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-10-24 22:45:15,753 [P848/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-10-24 22:45:15,753 [P848/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-10-24 22:45:15,754 [P848/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-10-24 22:45:16,367 [P848/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 22:45:16,542 [P848/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 22:45:16,547 [P848/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 22:45:16,560 [P848/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-10-24 22:45:16,574 [P848/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-10-24 22:45:16,619 [P848/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-10-24 22:45:16,628 [P848/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1173ms)
+ 2016-10-24 22:45:17,956 [P848/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://hamazon.localpc.com:80/umbraco (UmbracoModule request)
+ 2016-10-24 22:45:21,396 [P848/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-24 22:45:21,396 [P848/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-10-24 22:45:34,509 [P848/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-10-24 22:45:34,509 [P848/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2016-10-24 22:45:34,694 [P848/D2/T9] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username james.mckee.jr@gmail.com from IP address 127.0.0.1
+ 2016-10-24 22:45:34,834 [P848/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-10-24 22:45:34,835 [P848/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-10-24 22:45:34,935 [P848/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-10-24 22:45:34,936 [P848/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-10-24 22:45:34,949 [P848/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-10-24 22:45:34,950 [P848/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-10-24 22:45:34,951 [P848/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-10-24 22:45:34,952 [P848/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-10-24 22:45:34,957 [P848/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-10-24 22:45:34,957 [P848/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2016-10-24 22:45:48,853 [P848/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-24 22:45:48,853 [P848/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-10-24 22:46:21,184 [P848/D2/T6] INFO  umbraco.content - Load Xml from file...
+ 2016-10-24 22:46:21,187 [P848/D2/T6] ERROR umbraco.content - Failed to load Xml from file.
+System.Xml.XmlException: There is no Unicode byte order mark. Cannot switch to Unicode.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.CheckEncoding(String newEncodingName)
+   at System.Xml.XmlTextReaderImpl.ParseXmlDeclaration(Boolean isTextDecl)
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(Stream inStream)
+   at umbraco.content.LoadXmlFromFile()
+ 2016-10-24 22:46:21,198 [P848/D2/T6] INFO  umbraco.content - Loading content from database...
+ 2016-10-24 22:46:21,219 [P848/D2/T11] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-23 22:46:21
+ 2016-10-24 22:46:25,617 [P848/D2/T22] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 22:46:25,640 [P848/D2/T10] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 22:46:35,901 [P848/D2/T6] ERROR System.Object - Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+Remotion.Linq.Utilities.ArgumentEmptyException: Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+   at UCommerce.Transactions.TransactionLibraryInternal.GetBasket(Boolean create)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_GetBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-24 22:46:38,367 [P848/D2/T9] ERROR System.Object - Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+Remotion.Linq.Utilities.ArgumentEmptyException: Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+   at UCommerce.Transactions.TransactionLibraryInternal.GetBasket(Boolean create)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_GetBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-24 22:46:41,613 [P848/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-10-24 22:46:41,614 [P848/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 1ms)
+ 2016-10-24 22:46:43,097 [P848/D2/T9] ERROR System.Object - Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+Remotion.Linq.Utilities.ArgumentEmptyException: Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+   at UCommerce.Transactions.TransactionLibraryInternal.GetBasket(Boolean create)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_GetBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-24 22:46:56,020 [P848/D2/T22] ERROR System.Object - Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+Remotion.Linq.Utilities.ArgumentEmptyException: Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+   at UCommerce.Transactions.TransactionLibraryInternal.GetBasket(Boolean create)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_GetBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-24 22:46:56,693 [P848/D2/T6] ERROR System.Object - Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+Remotion.Linq.Utilities.ArgumentEmptyException: Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+   at UCommerce.Transactions.TransactionLibraryInternal.GetBasket(Boolean create)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_GetBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-24 22:46:57,558 [P848/D2/T6] ERROR System.Object - Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+Remotion.Linq.Utilities.ArgumentEmptyException: Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+   at UCommerce.Transactions.TransactionLibraryInternal.GetBasket(Boolean create)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_GetBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-24 22:46:58,360 [P848/D2/T22] ERROR System.Object - Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+Remotion.Linq.Utilities.ArgumentEmptyException: Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+   at UCommerce.Transactions.TransactionLibraryInternal.GetBasket(Boolean create)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_GetBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-24 22:46:59,131 [P848/D2/T22] ERROR System.Object - Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+Remotion.Linq.Utilities.ArgumentEmptyException: Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+   at UCommerce.Transactions.TransactionLibraryInternal.GetBasket(Boolean create)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_GetBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-24 22:47:02,220 [P848/D2/T6] ERROR System.Object - Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+Remotion.Linq.Utilities.ArgumentEmptyException: Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+   at UCommerce.Transactions.TransactionLibraryInternal.GetBasket(Boolean create)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_GetBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-24 22:47:07,368 [P848/D2/T22] ERROR System.Object - Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+Remotion.Linq.Utilities.ArgumentEmptyException: Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+   at UCommerce.Transactions.TransactionLibraryInternal.GetBasket(Boolean create)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_GetBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-24 22:47:42,500 [P848/D2/T22] ERROR System.Object - Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+Remotion.Linq.Utilities.ArgumentEmptyException: Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+   at UCommerce.Transactions.TransactionLibraryInternal.GetBasket(Boolean create)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_GetBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-24 22:48:37,964 [P848/D2/T33] WARN  umbraco.macro - Error loading partial view macro (View: ~/Views/MacroPartials/umbUserDetails.cshtml). Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_MacroPartials_umbUserDetails_cshtml.Execute() in c:\Source\site.hamazon\Hamazon\Views\MacroPartials\umbUserDetails.cshtml:line 6
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, IPublishedContent content)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+ 2016-10-24 22:48:37,965 [P848/D2/T33] WARN  umbraco.macro - Error loading Partial View (file: ~/Views/MacroPartials/umbUserDetails.cshtml). Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_MacroPartials_umbUserDetails_cshtml.Execute() in c:\Source\site.hamazon\Hamazon\Views\MacroPartials\umbUserDetails.cshtml:line 6
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, IPublishedContent content)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+ 2016-10-24 22:48:38,117 [P848/D2/T22] ERROR System.Object - Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+Remotion.Linq.Utilities.ArgumentEmptyException: Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+   at UCommerce.Transactions.TransactionLibraryInternal.GetBasket(Boolean create)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_GetBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-24 22:48:38,243 [P848/D2/T35] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 22:48:38,814 [P848/D2/T39] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 22:48:39,065 [P848/D2/T34] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 22:48:40,871 [P848/D2/T34] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 22:50:24,490 [P848/D2/T46] ERROR System.Object - Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+Remotion.Linq.Utilities.ArgumentEmptyException: Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+   at UCommerce.Transactions.TransactionLibraryInternal.GetBasket(Boolean create)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_GetBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-24 22:50:24,601 [P848/D2/T51] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 22:50:25,159 [P848/D2/T52] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 22:50:25,452 [P848/D2/T46] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 22:50:25,856 [P848/D2/T51] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 22:50:34,700 [P848/D2/T45] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 22:50:35,589 [P848/D2/T50] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username testuser@gmail.com from IP address 127.0.0.1
+ 2016-10-24 22:50:35,884 [P848/D2/T49] ERROR System.Object - Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+Remotion.Linq.Utilities.ArgumentEmptyException: Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+   at UCommerce.Transactions.TransactionLibraryInternal.GetBasket(Boolean create)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_GetBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-24 22:50:37,969 [P848/D2/T49] ERROR System.Object - Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+Remotion.Linq.Utilities.ArgumentEmptyException: Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+   at UCommerce.Transactions.TransactionLibraryInternal.GetBasket(Boolean create)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_GetBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-24 22:53:19,112 [P848/D2/T53] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-10-24 22:53:19,114 [P848/D2/T53] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-10-24 22:53:39,081 [P848/D2/T57] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-10-24 22:53:39,081 [P848/D2/T57] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-10-24 22:53:39,082 [P848/D2/T57] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-10-24 22:53:39,082 [P848/D2/T57] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-10-24 22:53:39,082 [P848/D2/T57] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-10-24 22:53:39,082 [P848/D2/T57] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-10-24 22:53:39,086 [P848/D2/T48] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-10-24 22:53:39,086 [P848/D2/T57] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-10-24 22:53:39,086 [P848/D2/T57] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-10-24 22:53:39,086 [P848/D2/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-10-24 22:53:39,086 [P848/D2/T43] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-10-24 22:53:39,086 [P848/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-10-24 22:54:01,617 [P848/D3/T64] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on DESKTOP-UFC91S6
+ 2016-10-24 22:54:01,645 [P848/D3/T64] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-10-24 22:54:01,654 [P848/D3/T64] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2016-10-24 22:54:01,750 [P848/D3/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-10-24 22:54:01,764 [P848/D3/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 14ms)
+ 2016-10-24 22:54:01,785 [P848/D3/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-10-24 22:54:01,786 [P848/D3/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-10-24 22:54:01,786 [P848/D3/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-10-24 22:54:01,787 [P848/D3/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
+ 2016-10-24 22:54:01,801 [P848/D3/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-10-24 22:54:01,802 [P848/D3/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2016-10-24 22:54:01,802 [P848/D3/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-10-24 22:54:01,806 [P848/D3/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 3ms)
+ 2016-10-24 22:54:01,832 [P848/D3/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-10-24 22:54:01,833 [P848/D3/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-10-24 22:54:01,833 [P848/D3/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-10-24 22:54:01,833 [P848/D3/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-10-24 22:54:02,473 [P848/D3/T64] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 22:54:02,607 [P848/D3/T64] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 22:54:02,612 [P848/D3/T64] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 22:54:02,624 [P848/D3/T64] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-10-24 22:54:02,638 [P848/D3/T64] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-10-24 22:54:02,685 [P848/D3/T64] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-10-24 22:54:02,692 [P848/D3/T64] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1138ms)
+ 2016-10-24 22:54:03,828 [P848/D3/T53] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://hamazon.localpc.com:80/umbraco (UmbracoModule request)
+ 2016-10-24 22:54:09,184 [P848/D2/T43] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2016-10-24 22:54:36,864 [P848/D3/T53] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2016-10-24 22:54:48,582 [P848/D4/T51] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on DESKTOP-UFC91S6
+ 2016-10-24 22:54:48,609 [P848/D4/T51] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-10-24 22:54:48,617 [P848/D4/T51] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2016-10-24 22:54:48,713 [P848/D4/T51] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-10-24 22:54:48,877 [P848/D4/T51] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 164ms)
+ 2016-10-24 22:54:48,890 [P848/D4/T51] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-10-24 22:54:48,898 [P848/D4/T51] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+ 2016-10-24 22:54:48,899 [P848/D4/T51] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-10-24 22:54:48,909 [P848/D4/T51] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 10ms)
+ 2016-10-24 22:54:48,920 [P848/D4/T51] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-10-24 22:54:48,928 [P848/D4/T51] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+ 2016-10-24 22:54:48,928 [P848/D4/T51] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-10-24 22:54:48,938 [P848/D4/T51] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 10ms)
+ 2016-10-24 22:54:48,965 [P848/D4/T51] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-10-24 22:54:48,974 [P848/D4/T51] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 8ms)
+ 2016-10-24 22:54:48,974 [P848/D4/T51] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-10-24 22:54:48,983 [P848/D4/T51] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 9ms)
+ 2016-10-24 22:54:49,508 [P848/D4/T51] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 22:54:49,676 [P848/D4/T51] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 22:54:49,678 [P848/D4/T51] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 22:54:49,688 [P848/D4/T51] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-10-24 22:54:49,701 [P848/D4/T51] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-10-24 22:54:49,761 [P848/D4/T51] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-10-24 22:54:49,770 [P848/D4/T51] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1253ms)
+ 2016-10-24 22:54:50,641 [P848/D4/T53] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://hamazon.localpc.com:80/umbraco (UmbracoModule request)
+ 2016-10-24 22:54:57,155 [P848/D4/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-10-24 22:54:57,172 [P848/D4/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 17ms)
+ 2016-10-24 22:55:21,133 [P848/D4/T57] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-24 22:55:21,168 [P848/D4/T57] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 34ms)
+ 2016-10-24 22:55:21,332 [P848/D4/T57] INFO  umbraco.content - Load Xml from file...
+ 2016-10-24 22:55:21,333 [P848/D4/T57] INFO  umbraco.content - Loaded Xml from file.
+ 2016-10-24 22:55:21,349 [P848/D4/T57] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-10-24 22:55:21,361 [P848/D4/T57] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 12ms)
+ 2016-10-24 22:55:34,654 [P848/D4/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-10-24 22:55:34,664 [P848/D4/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 10ms)
+ 2016-10-24 22:55:35,409 [P848/D4/T18] ERROR umbraco.cms.businesslogic.member.Member - An error occurred in GetCurrentMember
+System.InvalidOperationException: No member object found with username james.mckee.jr@gmail.com
+   at umbraco.cms.businesslogic.member.Member.GetCurrentMember()
+ 2016-10-24 22:55:36,184 [P848/D4/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login / Sign Up' with Id '2079' has been published.
+ 2016-10-24 22:55:36,994 [P848/D4/T12] ERROR umbraco.cms.businesslogic.member.Member - An error occurred in GetCurrentMember
+System.InvalidOperationException: No member object found with username james.mckee.jr@gmail.com
+   at umbraco.cms.businesslogic.member.Member.GetCurrentMember()
+ 2016-10-24 22:55:40,405 [P848/D4/T41] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 22:55:40,431 [P848/D4/T12] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 22:55:55,282 [P848/D4/T50] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Product Detail Page' with Id '2081' has been published.
+ 2016-10-24 22:55:59,313 [P848/D4/T12] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 22:55:59,333 [P848/D4/T46] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 22:56:09,463 [P848/D4/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Product Detail Page' with Id '2081' has been published.
+ 2016-10-24 22:56:13,492 [P848/D4/T50] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 22:56:13,507 [P848/D4/T47] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 22:56:18,677 [P848/D4/T59] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-23 22:56:18
+ 2016-10-24 23:00:10,553 [P848/D4/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-10-24 23:00:10,553 [P848/D4/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-10-24 23:00:10,556 [P848/D4/T40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-10-24 23:00:10,566 [P848/D4/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-10-24 23:00:10,566 [P848/D4/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-10-24 23:00:10,566 [P848/D4/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-10-24 23:00:10,566 [P848/D4/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-10-24 23:00:10,566 [P848/D4/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-10-24 23:00:10,566 [P848/D4/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-10-24 23:00:10,566 [P848/D4/T40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-10-24 23:00:10,566 [P848/D4/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-10-24 23:00:10,566 [P848/D4/T45] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-10-24 23:00:15,245 [P848/D5/T64] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on DESKTOP-UFC91S6
+ 2016-10-24 23:00:15,272 [P848/D5/T64] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-10-24 23:00:15,283 [P848/D5/T64] INFO  Umbraco.Core.PluginManager - Hash determined (took 8ms)
+ 2016-10-24 23:00:15,378 [P848/D5/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-10-24 23:00:15,569 [P848/D5/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 191ms)
+ 2016-10-24 23:00:15,584 [P848/D5/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-10-24 23:00:15,593 [P848/D5/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 9ms)
+ 2016-10-24 23:00:15,593 [P848/D5/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-10-24 23:00:15,606 [P848/D5/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 13ms)
+ 2016-10-24 23:00:15,618 [P848/D5/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-10-24 23:00:15,626 [P848/D5/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 8ms)
+ 2016-10-24 23:00:15,627 [P848/D5/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-10-24 23:00:15,641 [P848/D5/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 14ms)
+ 2016-10-24 23:00:15,669 [P848/D5/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-10-24 23:00:15,677 [P848/D5/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 8ms)
+ 2016-10-24 23:00:15,678 [P848/D5/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-10-24 23:00:15,686 [P848/D5/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 8ms)
+ 2016-10-24 23:00:16,216 [P848/D5/T64] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 23:00:16,352 [P848/D5/T64] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 23:00:16,357 [P848/D5/T64] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 23:00:16,367 [P848/D5/T64] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-10-24 23:00:16,379 [P848/D5/T64] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-10-24 23:00:16,423 [P848/D5/T64] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-10-24 23:00:16,430 [P848/D5/T64] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1254ms)
+ 2016-10-24 23:00:17,556 [P848/D5/T40] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://hamazon.localpc.com:80/umbraco (UmbracoModule request)
+ 2016-10-24 23:00:19,580 [P848/D5/T49] INFO  umbraco.content - Load Xml from file...
+ 2016-10-24 23:00:19,581 [P848/D5/T49] INFO  umbraco.content - Loaded Xml from file.
+ 2016-10-24 23:00:19,666 [P848/D5/T49] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-10-24 23:00:19,677 [P848/D5/T49] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 11ms)
+ 2016-10-24 23:00:20,091 [P848/D5/T49] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-24 23:00:20,126 [P848/D5/T49] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 34ms)
+ 2016-10-24 23:00:25,677 [P848/D5/T49] ERROR System.Object - Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+Remotion.Linq.Utilities.ArgumentEmptyException: Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+   at UCommerce.Transactions.TransactionLibraryInternal.GetBasket(Boolean create)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_GetBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-24 23:00:40,589 [P848/D4/T50] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\493b7b81\d6d59bd1\hash\hash.web
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\493b7b81\d6d59bd1\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2016-10-24 23:00:40,735 [P848/D5/T17] ERROR System.Object - Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+Remotion.Linq.Utilities.ArgumentEmptyException: Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+   at UCommerce.Transactions.TransactionLibraryInternal.GetBasket(Boolean create)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_GetBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-24 23:00:53,788 [P848/D5/T50] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-10-24 23:00:53,799 [P848/D5/T50] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 10ms)
+ 2016-10-24 23:00:55,440 [P848/D5/T43] ERROR System.Object - Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+Remotion.Linq.Utilities.ArgumentEmptyException: Parameter 'No basket exists for the current user.' cannot be empty.
+Parameter name: No basket exists for the current user.
+   at UCommerce.Transactions.TransactionLibraryInternal.GetBasket(Boolean create)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_GetBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2016-10-24 23:00:56,450 [P6592/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.0 application starting on DESKTOP-UFC91S6
+ 2016-10-24 23:00:56,475 [P6592/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-10-24 23:00:56,484 [P6592/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2016-10-24 23:00:56,585 [P6592/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-10-24 23:00:56,599 [P6592/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 14ms)
+ 2016-10-24 23:00:56,619 [P6592/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-10-24 23:00:56,620 [P6592/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2016-10-24 23:00:56,621 [P6592/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-10-24 23:00:56,622 [P6592/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2016-10-24 23:00:56,637 [P6592/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-10-24 23:00:56,638 [P6592/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-10-24 23:00:56,638 [P6592/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-10-24 23:00:56,641 [P6592/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 2ms)
+ 2016-10-24 23:00:56,670 [P6592/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-10-24 23:00:56,671 [P6592/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-10-24 23:00:56,671 [P6592/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-10-24 23:00:56,672 [P6592/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-10-24 23:00:57,100 [P6592/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 23:00:57,344 [P6592/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 23:00:57,352 [P6592/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-24 23:00:57,368 [P6592/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-10-24 23:00:57,381 [P6592/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-10-24 23:00:57,419 [P6592/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-10-24 23:00:57,426 [P6592/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1021ms)
+ 2016-10-24 23:00:59,019 [P6592/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50874/umbraco (UmbracoModule request)
+ 2016-10-24 23:01:01,026 [P6592/D2/T8] INFO  umbraco.content - Load Xml from file...
+ 2016-10-24 23:01:01,028 [P6592/D2/T8] INFO  umbraco.content - Loaded Xml from file.
+ 2016-10-24 23:01:01,087 [P6592/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-10-24 23:01:01,088 [P6592/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-10-24 23:01:01,114 [P6592/D2/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 23:01:01,450 [P6592/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-24 23:01:01,452 [P6592/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2016-10-24 23:01:09,731 [P6592/D2/T8] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 23:01:23,171 [P848/D5/T40] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-23 23:01:23
+ 2016-10-24 23:01:23,207 [P6592/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-10-24 23:01:23,208 [P6592/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 1ms)
+ 2016-10-24 23:01:24,989 [P6592/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 23:01:27,585 [P6592/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 23:01:38,650 [P848/D5/T40] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-10-24 23:01:38,662 [P848/D5/T40] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 11ms)
+ 2016-10-24 23:01:38,680 [P848/D5/T50] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-10-24 23:01:38,699 [P848/D5/T50] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 19ms)
+ 2016-10-24 23:01:38,713 [P848/D5/T50] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-10-24 23:01:38,713 [P848/D5/T50] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-10-24 23:01:38,715 [P848/D5/T50] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-10-24 23:01:38,728 [P848/D5/T50] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 12ms)
+ 2016-10-24 23:01:38,743 [P848/D5/T50] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-10-24 23:01:38,766 [P848/D5/T50] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 23ms)
+ 2016-10-24 23:01:54,445 [P848/D5/T50] ERROR umbraco.cms.businesslogic.member.Member - An error occurred in GetCurrentMember
+System.InvalidOperationException: No member object found with username james.mckee.jr@gmail.com
+   at umbraco.cms.businesslogic.member.Member.GetCurrentMember()
+ 2016-10-24 23:01:56,033 [P848/D5/T50] ERROR umbraco.cms.businesslogic.member.Member - An error occurred in GetCurrentMember
+System.InvalidOperationException: No member object found with username james.mckee.jr@gmail.com
+   at umbraco.cms.businesslogic.member.Member.GetCurrentMember()
+ 2016-10-24 23:02:05,056 [P848/D5/T5] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Member Profile' with Id '2085' has been published.
+ 2016-10-24 23:02:05,120 [P848/D5/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-10-24 23:02:05,138 [P848/D5/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 18ms)
+ 2016-10-24 23:02:09,163 [P6592/D2/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-23 23:02:09
+ 2016-10-24 23:02:09,228 [P6592/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-10-24 23:02:09,302 [P6592/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 74ms)
+ 2016-10-24 23:02:09,353 [P6592/D2/T6] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: InternalIndexSet
+ 2016-10-24 23:02:09,394 [P6592/D2/T6] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: InternalIndexSet
+ 2016-10-24 23:02:09,394 [P6592/D2/T13] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: ExternalIndexSet
+ 2016-10-24 23:02:24,322 [P6592/D2/T14] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 23:02:25,361 [P6592/D2/T13] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 23:02:31,267 [P6592/D2/T13] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-24 23:10:32,773 [P848/D5/T84] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Product Detail Page' with Id '2081' has been published.
+ 2016-10-24 23:10:36,121 [P6592/D2/T13] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: InternalIndexSet
+ 2016-10-24 23:10:36,131 [P6592/D2/T13] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: InternalIndexSet
+ 2016-10-24 23:10:36,131 [P6592/D2/T20] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: ExternalIndexSet
+ 2016-10-24 23:10:36,790 [P848/D5/T79] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 23:10:36,796 [P848/D5/T66] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 23:10:40,141 [P6592/D2/T18] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 23:10:40,153 [P6592/D2/T35] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 23:11:03,952 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:03,958 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:03,959 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:03,960 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:03,962 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:03,963 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:03,964 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:03,965 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:03,967 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:03,968 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:03,969 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:03,972 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:03,973 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:04,099 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:04,103 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:04,104 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:04,105 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:04,107 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:04,108 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:04,109 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:04,110 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:04,111 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:04,112 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:04,113 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:04,115 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:04,116 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:04,121 [P848/D5/T17] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2016-10-24 23:11:42,138 [P848/D5/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1060' has been published.
+ 2016-10-24 23:11:46,152 [P848/D5/T83] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 23:11:46,181 [P848/D5/T100] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 23:11:47,141 [P6592/D2/T36] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: InternalIndexSet
+ 2016-10-24 23:11:47,154 [P6592/D2/T36] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: InternalIndexSet
+ 2016-10-24 23:11:47,154 [P6592/D2/T23] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: ExternalIndexSet
+ 2016-10-24 23:11:51,158 [P6592/D2/T36] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 23:11:51,201 [P6592/D2/T18] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 23:12:13,994 [P848/D5/T97] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1060' has been published.
+ 2016-10-24 23:12:18,013 [P848/D5/T101] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 23:12:18,035 [P848/D5/T104] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 23:12:55,003 [P848/D5/T93] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1060' has been published.
+ 2016-10-24 23:12:58,464 [P6592/D2/T23] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: InternalIndexSet
+ 2016-10-24 23:12:58,476 [P6592/D2/T23] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: InternalIndexSet
+ 2016-10-24 23:12:58,476 [P6592/D2/T43] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: ExternalIndexSet
+ 2016-10-24 23:12:58,483 [P6592/D2/T23] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: InternalIndexSet
+ 2016-10-24 23:12:58,494 [P6592/D2/T23] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: InternalIndexSet
+ 2016-10-24 23:12:58,494 [P6592/D2/T43] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: ExternalIndexSet
+ 2016-10-24 23:12:59,030 [P848/D5/T71] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 23:12:59,036 [P848/D5/T107] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 23:13:02,500 [P6592/D2/T10] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 23:13:02,508 [P6592/D2/T18] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 23:16:27,556 [P848/D5/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1060' has been published.
+ 2016-10-24 23:16:30,616 [P6592/D2/T22] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: InternalIndexSet
+ 2016-10-24 23:16:30,629 [P6592/D2/T22] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: InternalIndexSet
+ 2016-10-24 23:16:30,630 [P6592/D2/T39] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: ExternalIndexSet
+ 2016-10-24 23:16:31,574 [P848/D5/T116] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 23:16:31,577 [P848/D5/T121] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 23:16:34,626 [P6592/D2/T43] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 23:16:34,660 [P6592/D2/T18] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 23:17:35,108 [P848/D5/T127] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1060' has been published.
+ 2016-10-24 23:17:39,122 [P848/D5/T128] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 23:17:39,151 [P848/D5/T137] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 23:18:19,145 [P848/D5/T128] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1060' has been published.
+ 2016-10-24 23:18:23,169 [P848/D5/T76] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 23:18:23,205 [P848/D5/T124] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-24 23:18:25,467 [P6592/D2/T17] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: InternalIndexSet
+ 2016-10-24 23:18:25,477 [P6592/D2/T17] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: InternalIndexSet
+ 2016-10-24 23:18:25,477 [P6592/D2/T58] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: ExternalIndexSet
+ 2016-10-24 23:18:25,484 [P6592/D2/T17] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: InternalIndexSet
+ 2016-10-24 23:18:25,494 [P6592/D2/T17] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: InternalIndexSet
+ 2016-10-24 23:18:25,495 [P6592/D2/T58] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index is currently locked,, IndexSet: ExternalIndexSet
+ 2016-10-24 23:18:29,502 [P6592/D2/T43] INFO  umbraco.content - Save Xml to file...
+ 2016-10-24 23:18:29,525 [P6592/D2/T18] INFO  umbraco.content - Saved Xml to file.

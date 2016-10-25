@@ -1,0 +1,20 @@
+﻿@using UCommerce.Umbraco7.Security
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@{
+    MemberService ms = new MemberService();
+    var current = ms.GetCurrentMember();
+    var memberId = "0";
+    if (current != null)
+    {
+        memberId = current.MemberId;
+    }
+
+}
+
+@if (memberId != "0")
+{
+    <div>
+        <a href="/users/member-profile/?id=@memberId">View My Profile</a>
+    </div>
+}
+

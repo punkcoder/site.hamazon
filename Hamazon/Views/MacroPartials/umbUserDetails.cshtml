@@ -1,0 +1,49 @@
+﻿@using UCommerce.Umbraco7.Security
+@using Umbraco.Web.Security
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@{
+    var memHelper = new MembershipHelper(UmbracoContext.Current);
+    var querystringid = Request.QueryString["id"];
+    IPublishedContent user = null;
+    if (!string.IsNullOrWhiteSpace(querystringid))
+    {
+        var userId = Convert.ToInt32(querystringid);
+        user = memHelper.GetById(userId);
+    }
+}
+
+@if (user != null)
+{
+    <div>
+        <label for=""> Email Address / Login Name: </label>
+        <span>@user.Name</span>
+    </div>
+    <div>
+        <label for=""> First Name:</label>
+        <span>@user.GetPropertyValue("firstName")</span>
+    </div>
+    <div>
+        <label for=""> Last Name:</label>
+        <span>@user.GetPropertyValue("lastName")</span>
+    </div>
+    <div>
+        <label for=""> Street Address Line 1:</label>
+        <span>@user.GetPropertyValue("streetAddressLine1")</span>
+    </div>
+    <div>
+        <label for=""> Street Address Line 2:</label>
+        <span>@user.GetPropertyValue("streetAddressLine2")</span>
+    </div>
+    <div>
+        <label for=""> City:</label>
+        <span>@user.GetPropertyValue("city")</span>
+    </div>
+    <div>
+        <label for=""> State:</label>
+        <span>@user.GetPropertyValue("state")</span>
+    </div>
+    <div>
+        <label for=""> Postal Code:</label>
+        <span>@user.GetPropertyValue("postalCode")</span>
+    </div>
+}
